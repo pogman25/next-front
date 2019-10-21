@@ -3,7 +3,7 @@ import styled from 'styled-components';
 import Link from 'next/link';
 
 const StyledLink = styled.a`
-  color: red;
+  color: ${({ theme }) => theme.colors.warning};
 `;
 
 const links = [
