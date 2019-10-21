@@ -1,6 +1,10 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`Nav Test Nav render 1`] = `
+.c0 {
+  color: red;
+}
+
 <nav
   className="jsx-3111634959"
 >
@@ -11,8 +15,7 @@ exports[`Nav Test Nav render 1`] = `
       className="jsx-3111634959"
     >
       <a
-        className="jsx-3111634959"
-        href="/"
+        className="c0"
         onClick={[Function]}
         onMouseEnter={[Function]}
       >

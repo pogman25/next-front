@@ -1,5 +1,10 @@
 import React from 'react';
+import styled from 'styled-components';
 import Link from 'next/link';
+
+const StyledLink = styled.a`
+  color: red;
+`;
 
 const links = [
   { href: 'https://zeit.co/now', label: 'ZEIT', key: null },
@@ -15,7 +20,7 @@ const Nav = () => (
     <ul>
       <li>
         <Link href="/">
-          <a>Home</a>
+          <StyledLink>Home</StyledLink>
         </Link>
         <Link href="/about">
           <a>About</a>
