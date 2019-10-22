@@ -1,70 +1,53 @@
 import React from 'react';
 import styled from 'styled-components';
 import Link from 'next/link';
+import { useRouter } from 'next/router';
+import HookLogo from './hook-logo';
+import HeaderLink from './HeaderLink';
 
-const StyledLink = styled.a`
-  color: ${({ theme }) => theme.colors.warning};
+const NavStyled = styled.nav`
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 `;
 
 const links = [
-  { href: 'https://zeit.co/now', label: 'ZEIT', key: null },
-  { href: 'https://github.com/zeit/next.js', label: 'GitHub', key: null },
-].map(link => {
-  // eslint-disable-next-line no-param-reassign
-  link.key = `nav-link-${link.href}-${link.label}`;
-  return link;
-});
+  { href: '/about', title: 'о приложении' },
+  { href: '/map', title: 'искать рыбное место' },
+  { href: '/download', title: 'скачать' },
+  { href: '/contacts', title: 'поддержка' },
+];
 
-const Nav = () => (
-  <nav>
-    <ul>
-      <li>
-        <Link href="/">
-          <StyledLink>Home</StyledLink>
-        </Link>
-        <Link href="/about">
-          <a>About</a>
-        </Link>
-        <Link href="/swapi">
-          <a>SWAPI</a>
-        </Link>
-      </li>
-      {links.map(({ key, href, label }) => (
-        <li key={key}>
-          <a href={href}>{label}</a>
-        </li>
-      ))}
-    </ul>
+const LinkStyled = styled.a``;
 
-    <style jsx>
-      {`
-        :global(body) {
-          margin: 0;
-          font-family: -apple-system, BlinkMacSystemFont, Avenir Next, Avenir, Helvetica,
-            sans-serif;
-        }
-        nav {
-          text-align: center;
-        }
-        ul {
-          display: flex;
-          justify-content: space-between;
-        }
-        nav > ul {
-          padding: 4px 16px;
-        }
-        li {
-          display: flex;
-          padding: 6px 8px;
-        }
-        a {
-          color: #067df7;
-          text-decoration: none;
-          font-size: 13px;
-        }
-      `}
-    </style>
-  </nav>
-);
+const Nav = () => {
+  return (
+    <NavStyled>
+      <Link href="/">
+        <LinkStyled>
+          <HookLogo />
+        </LinkStyled>
+      </Link>
+      <ul>
+        {links.map(({ href, title }) => (
+          <li key={href}>
+            <HeaderLink href={href} title={title} />
+          </li>
+        ))}
+      </ul>
+
+      <style jsx>
+        {`
+          :global(body) {
+            margin: 0;
+            font-family: -apple-system, BlinkMacSystemFont, Avenir Next, Avenir, Helvetica,
+              sans-serif;
+          }
+        `}
+      </style>
+    </NavStyled>
+  );
+};
 
 export default Nav;
