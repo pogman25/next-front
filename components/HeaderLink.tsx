@@ -4,10 +4,35 @@ import Link from 'next/link';
 import { useRouter } from 'next/router';
 
 const LinkStyled = styled.a<{ isActive: boolean }>`
-  ${({ isActive }) => isActive && 'border-bottom: 1px solid #000;'}
+  padding: 22px 15px 18px;
+  color: ${({ theme }) => theme.colors.mainBlue};
+  position: relative;
+
+  &::before {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    transform: ${({ isActive }) => (isActive ? 'scale(1)' : 'scale(0)')};
+    height: 3px;
+    background-color: ${({ theme }) => theme.colors.mainBlue};
+    transition: transform 0.25s;
+  }
+
+  &:hover {
+    &::before {
+      transform: scale(1);
+    }
+  }
 `;
 
-const HeaderLink = ({ href, title }) => {
+interface HeaderLinkType {
+  href: string;
+  title: string;
+}
+
+const HeaderLink: React.SFC<HeaderLinkType> = ({ href, title }) => {
   const { pathname } = useRouter();
   return (
     <Link href={href}>

@@ -1,15 +1,19 @@
 import React from 'react';
 import styled from 'styled-components';
 import Link from 'next/link';
-import { useRouter } from 'next/router';
 import HookLogo from './hook-logo';
 import HeaderLink from './HeaderLink';
 
 const NavStyled = styled.nav`
   width: 100%;
+  height: 64px;
   display: flex;
   justify-content: space-between;
   align-items: center;
+`;
+
+const Ul = styled.ul`
+  display: flex;
 `;
 
 const links = [
@@ -19,7 +23,9 @@ const links = [
   { href: '/contacts', title: 'поддержка' },
 ];
 
-const LinkStyled = styled.a``;
+const LinkStyled = styled.a`
+  margin-left: 25px;
+`;
 
 const Nav = () => {
   return (
@@ -29,13 +35,13 @@ const Nav = () => {
           <HookLogo />
         </LinkStyled>
       </Link>
-      <ul>
+      <Ul>
         {links.map(({ href, title }) => (
           <li key={href}>
             <HeaderLink href={href} title={title} />
           </li>
         ))}
-      </ul>
+      </Ul>
 
       <style jsx>
         {`

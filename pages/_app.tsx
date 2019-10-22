@@ -6,7 +6,7 @@ import GlobalStyle from '../styles/global-styles';
 export const theme = {
   colors: {
     mainGray: '#eee',
-    mainBG: '#00bcd4',
+    mainBlue: '#00bcd4',
     primary: '#0070f3',
     warning: 'red',
   },
