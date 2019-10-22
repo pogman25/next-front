@@ -1,8 +1,8 @@
 import React from 'react';
 import styled from 'styled-components';
 import Link from 'next/link';
-import HookLogo from './hook-logo';
-import HeaderLink from './HeaderLink';
+import HookLogo from '../hook-logo';
+import HeaderLink from '../header-link';
 
 const NavStyled = styled.nav`
   width: 100%;

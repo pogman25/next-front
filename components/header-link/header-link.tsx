@@ -5,6 +5,8 @@ import { useRouter } from 'next/router';
 
 const LinkStyled = styled.a<{ isActive: boolean }>`
   padding: 22px 15px 18px;
+  font-size: 20px;
+  line-height: 23px;
   color: ${({ theme }) => theme.colors.mainBlue};
   position: relative;
 
