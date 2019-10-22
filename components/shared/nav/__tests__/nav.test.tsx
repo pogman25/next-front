@@ -2,8 +2,19 @@ import React from 'react';
 import renderer from 'react-test-renderer';
 import { ThemeProvider } from 'styled-components';
 import Nav from '../nav';
-import { theme } from '../../pages/_app';
+import { theme } from '../../../../pages/_app';
 import 'jest-styled-components';
+
+jest.mock('next/router', () => ({
+  useRouter() {
+    return {
+      route: '/',
+      pathname: '/',
+      query: '',
+      asPath: '',
+    };
+  },
+}));
 
 describe('Nav Test', () => {
   test('Nav render', () => {
