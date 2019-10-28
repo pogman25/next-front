@@ -1,6 +1,7 @@
 import React from 'react';
 import styled from 'styled-components';
 import useLocale from '../../../hooks/useLocale';
+import Arrow from '../../shared/arrow';
 
 const Container = styled.div`
   width: 100%;
@@ -16,9 +17,11 @@ const Container = styled.div`
 const TextContainer = styled.div`
   display: flex;
   flex-direction: column;
+  align-items: flex-start;
   max-width: 1216px;
   width: 100%;
-  margin: 60px 56px;
+  margin: 60px 56px 80px;
+  color: ${({ theme }) => theme.colors.white};
 `;
 
 const H1 = styled.h1`
@@ -27,7 +30,6 @@ const H1 = styled.h1`
   line-height: 1;
   display: flex;
   flex-direction: column;
-  color: ${({ theme }) => theme.colors.white};
 `;
 
 const LogoTitle = styled.span`
@@ -36,7 +38,6 @@ const LogoTitle = styled.span`
 `;
 
 const P = styled.p`
-  color: ${({ theme }) => theme.colors.white};
   font-size: ${({ theme }) => theme.fontSizes.ml};
   font-style: italic;
   margin: 5px 0 0 6px;
@@ -45,14 +46,24 @@ const P = styled.p`
 
 const Info = styled.p`
   max-width: 440px;
-  color: ${({ theme }) => theme.colors.white};
   font-size: ${({ theme }) => theme.fontSizes.l};
   line-height: 1.35;
   margin: 27px 0 0 4px;
 `;
 
-const MoreInfo = styled(P)`
+const MoreInfo = styled.button`
+  display: flex;
+  align-items: center;
+  font-size: ${({ theme }) => theme.fontSizes.ml};
+  color: ${({ theme }) => theme.colors.white};
+  font-style: italic;
+  letter-spacing: -0.3px;
   margin-top: auto;
+  padding: 0 6px;
+`;
+
+const StyledArrow = styled(Arrow)`
+  margin-left: 14px;
 `;
 
 const Banner = () => {
@@ -66,7 +77,10 @@ const Banner = () => {
         </H1>
         <P>{dictionary.about}</P>
         <Info>{dictionary.bannerInfo}</Info>
-        <MoreInfo>{dictionary.moreInfo}</MoreInfo>
+        <MoreInfo>
+          {dictionary.moreInfo}
+          <StyledArrow />
+        </MoreInfo>
       </TextContainer>
     </Container>
   );

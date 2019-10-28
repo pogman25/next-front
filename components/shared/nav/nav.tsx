@@ -29,7 +29,7 @@ const LinkStyled = styled.a`
 `;
 
 const Nav = () => {
-  const { setEN, setRU, dictionary } = useLocale();
+  const { dictionary } = useLocale();
   return (
     <NavStyled>
       <Link href="/">
@@ -44,12 +44,6 @@ const Nav = () => {
           </li>
         ))}
       </Ul>
-      <button type="button" onClick={setRU}>
-        RU
-      </button>
-      <button type="button" onClick={setEN}>
-        EN
-      </button>
     </NavStyled>
   );
 };
