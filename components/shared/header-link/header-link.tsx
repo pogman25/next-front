@@ -9,6 +9,7 @@ const LinkStyled = styled.a<{ isActive: boolean }>`
   line-height: 23px;
   color: ${({ theme }) => theme.colors.mainBlue};
   position: relative;
+  text-transform: lowercase;
 
   &::before {
     content: '';

@@ -3,6 +3,7 @@ import styled from 'styled-components';
 import Link from 'next/link';
 import HookLogo from '../hook-logo';
 import HeaderLink from '../header-link';
+import useLocale from '../../../hooks/useLocale';
 
 const NavStyled = styled.nav`
   width: 100%;
@@ -17,10 +18,10 @@ const Ul = styled.ul`
 `;
 
 const links = [
-  { href: '/about', title: 'о приложении' },
-  { href: '/map', title: 'искать рыбное место' },
-  { href: '/download', title: 'скачать' },
-  { href: '/contacts', title: 'поддержка' },
+  { href: '/', title: 'about' },
+  { href: '/map', title: 'findPlace' },
+  { href: '/download', title: 'download' },
+  { href: '/contacts', title: 'support' },
 ];
 
 const LinkStyled = styled.a`
@@ -28,6 +29,7 @@ const LinkStyled = styled.a`
 `;
 
 const Nav = () => {
+  const { setEN, setRU, dictionary } = useLocale();
   return (
     <NavStyled>
       <Link href="/">
@@ -38,20 +40,16 @@ const Nav = () => {
       <Ul>
         {links.map(({ href, title }) => (
           <li key={href}>
-            <HeaderLink href={href} title={title} />
+            <HeaderLink href={href} title={dictionary[title]} />
           </li>
         ))}
       </Ul>
-
-      <style jsx>
-        {`
-          :global(body) {
-            margin: 0;
-            font-family: -apple-system, BlinkMacSystemFont, Avenir Next, Avenir, Helvetica,
-              sans-serif;
-          }
-        `}
-      </style>
+      <button type="button" onClick={setRU}>
+        RU
+      </button>
+      <button type="button" onClick={setEN}>
+        EN
+      </button>
     </NavStyled>
   );
 };
