@@ -4,6 +4,7 @@ import Nav from '../components/shared/nav';
 import Footer from '../components/shared/footer';
 import Banner from '../components/home/banner';
 import useLocale from '../hooks/useLocale';
+import Advantages from '../components/home/advantages';
 
 const Home = () => {
   const { dictionary } = useLocale();
@@ -16,6 +17,7 @@ const Home = () => {
       <Nav />
       <main>
         <Banner />
+        <Advantages />
       </main>
       <Footer />
     </div>

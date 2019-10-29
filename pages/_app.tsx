@@ -8,7 +8,10 @@ export const theme = {
   colors: {
     white: '#fff',
     mainGray: '#eee',
+    grayText: '#747474',
     mainBlue: '#00bcd4',
+    mainBlueDarker: '#00a4b8',
+    mainBlueDarkest: '#008ea0',
     primary: '#0070f3',
     warning: 'red',
   },
@@ -17,6 +20,7 @@ export const theme = {
     xl: '56px',
     l: '24px',
     ml: '20px',
+    s: '14px',
   },
 };
 
