@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState } from 'react';
 import styled from 'styled-components';
 import HeadText from '../head-text';
 import PromoWrapper from '../promo-wrapper';
@@ -32,24 +32,29 @@ const ImageContainer = styled.div`
   height: 100%;
   position: relative;
 `;
-const Image = styled.img`
+const Image = styled.img<{ active: boolean }>`
   position: absolute;
   z-index: 0;
   left: 62px;
+  transition: opacity 250ms;
+  opacity: ${({ active }) => (active ? 1 : 0)};
 `;
 
 const Manual = () => {
+  const [active, setActive] = useState(1);
   return (
     <PromoWrapper color="grayBG">
       <Container>
         <HeadText title="тяни!" subtitle="как пользоваться" />
-        <ManualSteps />
+        <ManualSteps active={active} setActive={setActive} />
         <ManualBtnsContainer>
           <ManualBtns />
         </ManualBtnsContainer>
       </Container>
       <ImageContainer>
-        <Image src="/images/manual-step-1.png" />
+        <Image src="/images/manual-step-1.png" active={active === 1} />
+        <Image src="/images/manual-step-2.png" active={active === 2} />
+        <Image src="/images/manual-step-3.png" active={active === 3} />
       </ImageContainer>
     </PromoWrapper>
   );
