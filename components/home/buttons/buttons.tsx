@@ -25,15 +25,22 @@ const Span = styled.span`
   font-style: italic;
 `;
 
+const ButtonContainer = styled.div`
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-column-gap: 32px;
+  max-width: 800px;
+`;
+
 const Buttons = () => {
   return (
-    <>
+    <ButtonContainer>
       <FirstBtn>
         <Span>Готов попробовать?</Span>
         <AdvanButtons key="first-button">Сейчас в WEB</AdvanButtons>
       </FirstBtn>
       <AdvanButtons key="second-button">Скачать приложение</AdvanButtons>
-    </>
+    </ButtonContainer>
   );
 };
 

@@ -5,6 +5,7 @@ import Footer from '../components/shared/footer';
 import Banner from '../components/home/banner';
 import useLocale from '../hooks/useLocale';
 import Advantages from '../components/home/advantages';
+import Manual from '../components/home/manual';
 
 const Home = () => {
   const { dictionary } = useLocale();
@@ -18,6 +19,7 @@ const Home = () => {
       <main>
         <Banner />
         <Advantages />
+        <Manual />
       </main>
       <Footer />
     </div>

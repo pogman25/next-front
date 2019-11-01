@@ -50,8 +50,8 @@ const AdvantagesList = () => {
             <p>{adv.text}</p>
           </Item>
         ))}
-        <Buttons />
       </List>
+      <Buttons />
     </Container>
   );
 };
