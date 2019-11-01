@@ -21,6 +21,10 @@ const Item = styled.li`
   line-height: 1.33333333;
 `;
 
+const AdvantageSBtns = styled(Buttons)`
+  margin-top: 98px;
+`;
+
 const advantagesData = [
   {
     id: 1,
@@ -51,7 +55,7 @@ const AdvantagesList = () => {
           </Item>
         ))}
       </List>
-      <Buttons />
+      <AdvantageSBtns />
     </Container>
   );
 };

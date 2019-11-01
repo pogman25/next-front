@@ -1,7 +1,12 @@
 import React from 'react';
 import styled from 'styled-components';
 
+const Container = styled.div`
+  display: flex;
+`;
+
 const StepList = styled.ul``;
+
 const StepItem = styled.li`
   margin-top: 20px;
   color: ${({ theme }) => theme.colors.grayText};
@@ -35,7 +40,7 @@ const Subtitle = styled.p`
 
 const ManualSteps = () => {
   return (
-    <div>
+    <Container>
       <StepList>
         <StepItem>
           <H4>01</H4>
@@ -53,7 +58,7 @@ const ManualSteps = () => {
           <Subtitle>Открой фильтр и найди клёвое место. Удачи!</Subtitle>
         </StepItem>
       </StepList>
-    </div>
+    </Container>
   );
 };
 
