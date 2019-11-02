@@ -1,0 +1,932 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Nav Test Nav render 1`] = `
+.c3 {
+  padding: 22px 15px 20px;
+  font-size: 20px;
+  line-height: 23px;
+  color: #00bcd4;
+  position: relative;
+  text-transform: lowercase;
+}
+
+.c3::before {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  -webkit-transform: scale(1);
+  -ms-transform: scale(1);
+  transform: scale(1);
+  height: 3px;
+  background-color: #00bcd4;
+  -webkit-transition: -webkit-transform 0.25s;
+  -webkit-transition: transform 0.25s;
+  transition: transform 0.25s;
+}
+
+.c3:hover::before {
+  -webkit-transform: scale(1);
+  -ms-transform: scale(1);
+  transform: scale(1);
+}
+
+.c4 {
+  padding: 22px 15px 20px;
+  font-size: 20px;
+  line-height: 23px;
+  color: #00bcd4;
+  position: relative;
+  text-transform: lowercase;
+}
+
+.c4::before {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  -webkit-transform: scale(0);
+  -ms-transform: scale(0);
+  transform: scale(0);
+  height: 3px;
+  background-color: #00bcd4;
+  -webkit-transition: -webkit-transform 0.25s;
+  -webkit-transition: transform 0.25s;
+  transition: transform 0.25s;
+}
+
+.c4:hover::before {
+  -webkit-transform: scale(1);
+  -ms-transform: scale(1);
+  transform: scale(1);
+}
+
+.c0 {
+  width: 100%;
+  height: 64px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.c2 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.c1 {
+  margin-left: 25px;
+}
+
+.c42 {
+  height: 320px;
+  width: 100%;
+  background-image: url('/images/white-wave.svg');
+  background-size: contain;
+  background-repeat: repeat no-repeat;
+  background-color: #80deea;
+}
+
+.c5 {
+  width: 100%;
+  height: 576px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  background-color: #00bcd4;
+  background-image: url('/images/fisherman.png');
+  background-repeat: no-repeat;
+  background-position: 100% 100%;
+}
+
+.c6 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-align-items: flex-start;
+  -webkit-box-align: flex-start;
+  -ms-flex-align: flex-start;
+  align-items: flex-start;
+  max-width: 1216px;
+  width: 100%;
+  margin: 60px 56px 80px;
+  color: #fff;
+}
+
+.c7 {
+  font-weight: bold;
+  font-size: 56px;
+  line-height: 1;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+}
+
+.c8 {
+  font-size: 72px;
+  line-height: 1.1;
+}
+
+.c9 {
+  font-size: 20px;
+  font-style: italic;
+  margin: 5px 0 0 6px;
+  -webkit-letter-spacing: -0.3px;
+  -moz-letter-spacing: -0.3px;
+  -ms-letter-spacing: -0.3px;
+  letter-spacing: -0.3px;
+}
+
+.c10 {
+  max-width: 440px;
+  font-size: 24px;
+  line-height: 1.35;
+  margin: 27px 0 0 4px;
+}
+
+.c11 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  font-size: 20px;
+  color: #fff;
+  font-style: italic;
+  -webkit-letter-spacing: -0.3px;
+  -moz-letter-spacing: -0.3px;
+  -ms-letter-spacing: -0.3px;
+  letter-spacing: -0.3px;
+  margin-top: auto;
+  padding: 0 6px;
+}
+
+.c12 {
+  margin-left: 14px;
+}
+
+.c25 {
+  height: 64px;
+  border-radius: 10px;
+  font-size: 14px;
+  text-transform: uppercase;
+  font-weight: 600;
+  outline: none;
+  -webkit-transition: background-color 250ms;
+  transition: background-color 250ms;
+  background-color: #00bcd4;
+  color: #fff;
+}
+
+.c25:hover,
+.c25:focus {
+  background-color: #00a4b8;
+}
+
+.c25:active {
+  background-color: #008ea0;
+}
+
+.c21 {
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+  grid-column-gap: 32px;
+  max-width: 800px;
+  z-index: 1;
+  position: relative;
+}
+
+.c26 {
+  width: 100%;
+}
+
+.c23 {
+  position: relative;
+}
+
+.c24 {
+  position: absolute;
+  font-size: 20px;
+  line-height: 23px;
+  top: -35px;
+  left: 0;
+  color: #00bcd4;
+  -webkit-letter-spacing: -0.3px;
+  -moz-letter-spacing: -0.3px;
+  -ms-letter-spacing: -0.3px;
+  letter-spacing: -0.3px;
+  font-style: italic;
+}
+
+.c18 {
+  max-width: 794px;
+  margin-top: 21px;
+}
+
+.c19 {
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+  grid-column-gap: 32px;
+  grid-row-gap: 23px;
+}
+
+.c20 {
+  font-size: 24px;
+  color: #747474;
+  line-height: 1.33333333;
+}
+
+.c22 {
+  margin-top: 98px;
+}
+
+.c15 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  color: #00bcd4;
+}
+
+.c16 {
+  max-width: 280px;
+  line-height: 1;
+  font-size: 56px;
+}
+
+.c17 {
+  font-style: italic;
+  font-size: 20px;
+  line-height: 1.15;
+  margin-top: 15px;
+  -webkit-letter-spacing: -0.3px;
+  -moz-letter-spacing: -0.3px;
+  -ms-letter-spacing: -0.3px;
+  letter-spacing: -0.3px;
+}
+
+.c13 {
+  width: 100%;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  background-color: #fff;
+}
+
+.c27 {
+  width: 100%;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  background-color: #f3f6f8;
+}
+
+.c14 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  max-width: 1202px;
+  width: 100%;
+  margin: 60px 56px 80px;
+}
+
+.c29 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.c32 {
+  margin-left: -4px;
+  font-size: 48px;
+  position: relative;
+  -webkit-transition: color 250ms;
+  transition: color 250ms;
+  color: #008ea0;
+}
+
+.c32::before {
+  content: '';
+  position: absolute;
+  width: 60px;
+  height: 20px;
+  background-color: #f3f6f8;
+  z-index: 1;
+  bottom: 4px;
+  -webkit-transform: rotateZ(10deg);
+  -ms-transform: rotateZ(10deg);
+  transform: rotateZ(10deg);
+}
+
+.c36 {
+  margin-left: -4px;
+  font-size: 48px;
+  position: relative;
+  -webkit-transition: color 250ms;
+  transition: color 250ms;
+  color: #00bcd4;
+}
+
+.c36::before {
+  content: '';
+  position: absolute;
+  width: 60px;
+  height: 20px;
+  background-color: #f3f6f8;
+  z-index: 1;
+  bottom: 4px;
+  -webkit-transform: rotateZ(10deg);
+  -ms-transform: rotateZ(10deg);
+  transform: rotateZ(10deg);
+}
+
+.c30 {
+  position: relative;
+  margin-top: 20px;
+  -webkit-transition: color 250ms;
+  transition: color 250ms;
+  color: #008ea0;
+}
+
+.c30:hover,
+.c30:hover .c31,
+.c30:active,
+.c30:active .c31 {
+  color: #008ea0;
+}
+
+.c35 {
+  position: relative;
+  margin-top: 20px;
+  -webkit-transition: color 250ms;
+  transition: color 250ms;
+  color: #747474;
+}
+
+.c35:hover,
+.c35:hover .c31,
+.c35:active,
+.c35:active .c31 {
+  color: #008ea0;
+}
+
+.c33 {
+  max-width: 388px;
+  font-size: 24px;
+  -webkit-letter-spacing: 0.1px;
+  -moz-letter-spacing: 0.1px;
+  -ms-letter-spacing: 0.1px;
+  letter-spacing: 0.1px;
+  margin-top: -9px;
+  line-height: 1.3;
+}
+
+.c34 {
+  width: 100%;
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 1;
+  outline: none;
+}
+
+.c28 {
+  margin-bottom: 65px;
+  max-width: 388px;
+  -webkit-flex: 0 0 388px;
+  -ms-flex: 0 0 388px;
+  flex: 0 0 388px;
+  position: relative;
+  z-index: 1;
+}
+
+.c37 {
+  position: relative;
+  z-index: 1;
+  margin-top: 96px;
+  height: 64px;
+}
+
+.c38 {
+  position: absolute;
+  width: 794px;
+  z-index: 1;
+  left: 0;
+}
+
+.c39 {
+  -webkit-flex: 1 1 0;
+  -ms-flex: 1 1 0;
+  flex: 1 1 0;
+  height: 100%;
+  position: relative;
+}
+
+.c40 {
+  position: absolute;
+  z-index: 0;
+  left: 62px;
+  -webkit-transition: opacity 300ms;
+  transition: opacity 300ms;
+  opacity: 1;
+}
+
+.c41 {
+  position: absolute;
+  z-index: 0;
+  left: 62px;
+  -webkit-transition: opacity 300ms;
+  transition: opacity 300ms;
+  opacity: 0;
+}
+
+<div>
+  <nav
+    className="c0"
+  >
+    <a
+      className="c1"
+      onClick={[Function]}
+      onMouseEnter={[Function]}
+    >
+      <svg
+        fill="none"
+        height="32"
+        viewBox="0 0 81 32"
+        width="81"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          d="M41.5121 30.2276V20.9789C41.5121 19.8187 41.5758 18.7553 41.7351 17.7885C41.8944 16.8218 42.1493 15.9517 42.5635 15.2105C43.2325 13.9859 44.1883 12.9869 45.3989 12.2457C46.6414 11.5045 48.1388 11.1178 49.9229 11.1178C51.7069 11.1178 53.2043 11.5045 54.4468 12.2457C55.6893 12.9869 56.6451 13.9859 57.2823 15.2105C57.6964 15.9517 57.9513 16.8218 58.1106 17.7885C58.2699 18.7553 58.3336 19.8187 58.3336 20.9789V30.3243C58.3336 30.9043 58.3017 31.4844 58.2699 32C56.2946 32 54.4468 31.9033 52.6627 31.7422C52.6946 31.5811 52.6946 31.3877 52.6946 31.1944V20.1088C52.6946 19.0131 52.4397 18.2075 51.9618 17.6596C51.4521 17.1118 50.783 16.854 49.9547 16.854C49.0945 16.854 48.4255 17.1118 47.9476 17.6596C47.4379 18.2075 47.2148 19.0131 47.2148 20.1088V31.1621C45.2396 30.8721 43.3599 30.5499 41.5121 30.2276ZM68.4329 31.4199L70.8223 27.5851L72.1922 30.8721C73.817 30.6143 75.5374 30.292 77.2896 29.9376L73.9763 23.0091L80.6667 11.4723H78.1817C76.2383 11.4723 74.4223 12.5357 73.4666 14.2759L68.2417 23.8469H68.1461V3.70594C68.1461 1.6435 66.4895 0 64.4824 0H62.5071V31.9355C64.3549 31.8389 66.3302 31.6777 68.4329 31.4199ZM5.60716 30.2222L5.63902 20.7855C5.63902 19.5287 5.83017 18.5619 6.24434 17.8852C6.6585 17.2085 7.39126 16.8862 8.4426 16.8862C9.33465 16.8862 10.0037 17.1762 10.4816 17.7885C10.9595 18.4008 11.2143 19.2064 11.2143 20.2377V28.9111C13.3275 28.4444 15.0692 28.2296 16.8533 28.1329V18.0785C16.8533 16.8218 16.694 15.7261 16.3436 14.856C16.025 13.9859 15.579 13.2447 15.0055 12.6969C14.4639 12.149 13.8268 11.7301 13.1259 11.5045C12.425 11.2467 11.7241 11.15 11.0232 11.15C9.71696 11.15 8.66561 11.4401 7.83728 12.0201C7.00895 12.6002 6.30806 13.3414 5.70274 14.2437H5.60716V3.70594C5.63902 1.67573 4.01422 0 1.97525 0H0V31.9355L5.60716 30.2222ZM26.6659 28.1329V20.1088C26.6659 19.0131 26.9207 18.2075 27.3986 17.6596C27.9084 17.1118 28.5774 16.854 29.4057 16.854C30.2659 16.854 30.935 17.1118 31.4128 17.6596C31.9226 18.2075 32.1456 19.0131 32.1456 20.1088V28.713C34.089 28.9708 35.9368 29.2931 37.7846 29.5831V20.9789C37.7846 19.8187 37.7209 18.7553 37.5616 17.7885C37.4023 16.8218 37.1474 15.9517 36.7333 15.2105C36.0642 13.9859 35.1085 12.9869 33.8978 12.2457C32.6553 11.5045 31.158 11.1178 29.3739 11.1178C27.5898 11.1178 26.0924 11.5045 24.8499 12.2457C23.6074 12.9869 22.6517 13.9859 22.0145 15.2105C21.6003 15.9517 21.3454 16.8218 21.1861 17.7885C21.0269 18.7553 20.9631 19.8187 20.9631 20.9789V27.9396C23.0021 27.9396 24.8818 28.004 26.6659 28.1329Z"
+          fill="#00BCD4"
+        />
+      </svg>
+    </a>
+    <ul
+      className="c2"
+    >
+      <li>
+        <a
+          className="c3"
+          onClick={[Function]}
+          onMouseEnter={[Function]}
+        />
+      </li>
+      <li>
+        <a
+          className="c4"
+          onClick={[Function]}
+          onMouseEnter={[Function]}
+        />
+      </li>
+      <li>
+        <a
+          className="c4"
+          onClick={[Function]}
+          onMouseEnter={[Function]}
+        />
+      </li>
+      <li>
+        <a
+          className="c4"
+          onClick={[Function]}
+          onMouseEnter={[Function]}
+        />
+      </li>
+    </ul>
+  </nav>
+  <main>
+    <div
+      className="c5"
+    >
+      <div
+        className="c6"
+      >
+        <h1
+          className="c7"
+        >
+          <span />
+          <span
+            className="c8"
+          >
+            «Hook»?
+          </span>
+        </h1>
+        <p
+          className="c9"
+        />
+        <p
+          className="c10"
+        />
+        <button
+          className="c11"
+        >
+          <svg
+            className="c12"
+            fill="none"
+            height="16"
+            viewBox="0 0 17 16"
+            width="17"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              clipRule="evenodd"
+              d="M16.8303 8L15.4303 6.6L9.83032 12.2L9.83032 -1.42847e-07L7.83032 -1.83661e-07L7.83032 12.2L2.23032 6.6L0.830322 8L8.83032 16L16.8303 8Z"
+              fill="white"
+              fillRule="evenodd"
+              opacity="0.54"
+            />
+          </svg>
+        </button>
+      </div>
+    </div>
+    <section
+      className="c13"
+      color="white"
+    >
+      <div
+        className="c14"
+      >
+        <div
+          className="c15"
+          color="mainBlue"
+        >
+          <h2
+            className="c16"
+          >
+            на что ловишь?
+          </h2>
+          <span
+            className="c17"
+          >
+            полезные преимущества
+          </span>
+        </div>
+        <div
+          className="c18"
+        >
+          <ul
+            className="c19"
+          >
+            <li
+              className="c20"
+            >
+              <svg
+                fill="none"
+                height="24"
+                viewBox="0 0 18 24"
+                width="18"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  clipRule="evenodd"
+                  d="M8.73374 0C11.0456 0 17.4675 4.62374 17.4675 10.4094C17.4675 12.8951 16.1238 16.5427 12.5631 20.1034L8.73374 24L4.83715 20.1034C1.34365 16.4755 0 12.8279 0 10.4094C0 4.62374 6.42187 0 8.73374 0Z"
+                  fill="#00BCD4"
+                  fillRule="evenodd"
+                />
+                <circle
+                  cx="8.73374"
+                  cy="4.11005"
+                  r="1.055"
+                  stroke="white"
+                  strokeWidth="2"
+                />
+                <path
+                  d="M2.68686 6.93123C2.2588 6.58225 1.62889 6.64637 1.27992 7.07443C0.930946 7.50249 0.99506 8.1324 1.42312 8.48137L2.68686 6.93123ZM15.9615 8.54209C16.4231 8.23887 16.5515 7.61885 16.2483 7.15726C15.945 6.69566 15.325 6.56728 14.8634 6.8705L15.9615 8.54209ZM1.42312 8.48137C5.28882 11.6328 11.6288 11.3883 15.9615 8.54209L14.8634 6.8705C11.0895 9.34961 5.73021 9.41228 2.68686 6.93123L1.42312 8.48137Z"
+                  fill="white"
+                />
+              </svg>
+              <p>
+                Простая и бесплатная регистрация экономит твоё время.
+              </p>
+            </li>
+            <li
+              className="c20"
+            >
+              <svg
+                fill="none"
+                height="24"
+                viewBox="0 0 18 24"
+                width="18"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  clipRule="evenodd"
+                  d="M8.73374 0C11.0456 0 17.4675 4.62374 17.4675 10.4094C17.4675 12.8951 16.1238 16.5427 12.5631 20.1034L8.73374 24L4.83715 20.1034C1.34365 16.4755 0 12.8279 0 10.4094C0 4.62374 6.42187 0 8.73374 0Z"
+                  fill="#00BCD4"
+                  fillRule="evenodd"
+                />
+                <circle
+                  cx="8.73374"
+                  cy="4.11005"
+                  r="1.055"
+                  stroke="white"
+                  strokeWidth="2"
+                />
+                <path
+                  d="M2.68686 6.93123C2.2588 6.58225 1.62889 6.64637 1.27992 7.07443C0.930946 7.50249 0.99506 8.1324 1.42312 8.48137L2.68686 6.93123ZM15.9615 8.54209C16.4231 8.23887 16.5515 7.61885 16.2483 7.15726C15.945 6.69566 15.325 6.56728 14.8634 6.8705L15.9615 8.54209ZM1.42312 8.48137C5.28882 11.6328 11.6288 11.3883 15.9615 8.54209L14.8634 6.8705C11.0895 9.34961 5.73021 9.41228 2.68686 6.93123L1.42312 8.48137Z"
+                  fill="white"
+                />
+              </svg>
+              <p>
+                Продвинутая фильтрация для мгновенного поиска.
+              </p>
+            </li>
+            <li
+              className="c20"
+            >
+              <svg
+                fill="none"
+                height="24"
+                viewBox="0 0 18 24"
+                width="18"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  clipRule="evenodd"
+                  d="M8.73374 0C11.0456 0 17.4675 4.62374 17.4675 10.4094C17.4675 12.8951 16.1238 16.5427 12.5631 20.1034L8.73374 24L4.83715 20.1034C1.34365 16.4755 0 12.8279 0 10.4094C0 4.62374 6.42187 0 8.73374 0Z"
+                  fill="#00BCD4"
+                  fillRule="evenodd"
+                />
+                <circle
+                  cx="8.73374"
+                  cy="4.11005"
+                  r="1.055"
+                  stroke="white"
+                  strokeWidth="2"
+                />
+                <path
+                  d="M2.68686 6.93123C2.2588 6.58225 1.62889 6.64637 1.27992 7.07443C0.930946 7.50249 0.99506 8.1324 1.42312 8.48137L2.68686 6.93123ZM15.9615 8.54209C16.4231 8.23887 16.5515 7.61885 16.2483 7.15726C15.945 6.69566 15.325 6.56728 14.8634 6.8705L15.9615 8.54209ZM1.42312 8.48137C5.28882 11.6328 11.6288 11.3883 15.9615 8.54209L14.8634 6.8705C11.0895 9.34961 5.73021 9.41228 2.68686 6.93123L1.42312 8.48137Z"
+                  fill="white"
+                />
+              </svg>
+              <p>
+                Кроме клёвых мест специализированные магазины и базы рядом с тобой.
+              </p>
+            </li>
+            <li
+              className="c20"
+            >
+              <svg
+                fill="none"
+                height="24"
+                viewBox="0 0 18 24"
+                width="18"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  clipRule="evenodd"
+                  d="M8.73374 0C11.0456 0 17.4675 4.62374 17.4675 10.4094C17.4675 12.8951 16.1238 16.5427 12.5631 20.1034L8.73374 24L4.83715 20.1034C1.34365 16.4755 0 12.8279 0 10.4094C0 4.62374 6.42187 0 8.73374 0Z"
+                  fill="#00BCD4"
+                  fillRule="evenodd"
+                />
+                <circle
+                  cx="8.73374"
+                  cy="4.11005"
+                  r="1.055"
+                  stroke="white"
+                  strokeWidth="2"
+                />
+                <path
+                  d="M2.68686 6.93123C2.2588 6.58225 1.62889 6.64637 1.27992 7.07443C0.930946 7.50249 0.99506 8.1324 1.42312 8.48137L2.68686 6.93123ZM15.9615 8.54209C16.4231 8.23887 16.5515 7.61885 16.2483 7.15726C15.945 6.69566 15.325 6.56728 14.8634 6.8705L15.9615 8.54209ZM1.42312 8.48137C5.28882 11.6328 11.6288 11.3883 15.9615 8.54209L14.8634 6.8705C11.0895 9.34961 5.73021 9.41228 2.68686 6.93123L1.42312 8.48137Z"
+                  fill="white"
+                />
+              </svg>
+              <p>
+                Оффлайн режим - работает даже при отсутствии интернета на устройстве.
+              </p>
+            </li>
+          </ul>
+          <div
+            className="c21 c22"
+          >
+            <div
+              className="c23"
+            >
+              <span
+                className="c24"
+              >
+                Готов попробовать?
+              </span>
+              <button
+                className="c25 c26"
+                type="button"
+              >
+                Сейчас в WEB
+              </button>
+            </div>
+            <button
+              className="c25 c26"
+              type="button"
+            >
+              Скачать приложение
+            </button>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section
+      className="c27"
+      color="grayBG"
+    >
+      <div
+        className="c14"
+      >
+        <div
+          className="c28"
+        >
+          <div
+            className="c15"
+            color="mainBlue"
+          >
+            <h2
+              className="c16"
+            >
+              тяни!
+            </h2>
+            <span
+              className="c17"
+            >
+              как пользоваться
+            </span>
+          </div>
+          <div
+            className="c29"
+          >
+            <ul
+              className=""
+            >
+              <li
+                className="c30"
+              >
+                <h4
+                  className="c31 c32"
+                >
+                  01
+                </h4>
+                <p
+                  className="c33"
+                >
+                  Зайди в пункт меню «искать рыбное место» или скачай в AppStore/ GooglePlayприложение.
+                </p>
+                <button
+                  className="c34"
+                  onClick={[Function]}
+                />
+              </li>
+              <li
+                className="c35"
+              >
+                <h4
+                  className="c31 c36"
+                >
+                  02
+                </h4>
+                <p
+                  className="c33"
+                >
+                  Пройди простую регистрацию. Это легко и бесплатно. Отвечаем!
+                </p>
+                <button
+                  className="c34"
+                  onClick={[Function]}
+                />
+              </li>
+              <li
+                className="c35"
+              >
+                <h4
+                  className="c31 c36"
+                >
+                  03
+                </h4>
+                <p
+                  className="c33"
+                >
+                  Открой фильтр и найди клёвое место. Удачи!
+                </p>
+                <button
+                  className="c34"
+                  onClick={[Function]}
+                />
+              </li>
+            </ul>
+          </div>
+          <div
+            className="c37"
+          >
+            <div
+              className="c21 c38"
+            >
+              <div
+                className="c23"
+              >
+                <span
+                  className="c24"
+                >
+                  Готов попробовать?
+                </span>
+                <button
+                  className="c25 c26"
+                  type="button"
+                >
+                  Сейчас в WEB
+                </button>
+              </div>
+              <button
+                className="c25 c26"
+                type="button"
+              >
+                Скачать приложение
+              </button>
+            </div>
+          </div>
+        </div>
+        <div
+          className="c39"
+        >
+          <img
+            className="c40"
+            src="/images/manual-step-1.png"
+          />
+          <img
+            className="c41"
+            src="/images/manual-step-2.png"
+          />
+          <img
+            className="c41"
+            src="/images/manual-step-3.png"
+          />
+        </div>
+      </div>
+    </section>
+  </main>
+  <footer
+    className="c42"
+  >
+     
+    <button
+      onClick={[Function]}
+      type="button"
+    >
+      RU
+    </button>
+    <button
+      onClick={[Function]}
+      type="button"
+    >
+      EN
+    </button>
+  </footer>
+</div>
+`;
