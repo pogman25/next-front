@@ -1,4 +1,4 @@
-import React, { useReducer, useCallback, useEffect } from 'react';
+import React, { useReducer, useCallback, useEffect, memo } from 'react';
 import styled from 'styled-components';
 import HeadText from '../head-text';
 import PromoWrapper from '../promo-wrapper';
@@ -90,4 +90,4 @@ const Manual = () => {
   );
 };
 
-export default Manual;
+export default memo(Manual);

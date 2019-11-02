@@ -3,12 +3,10 @@ import styled from 'styled-components';
 import useLocale from '../../../hooks/useLocale';
 
 const Container = styled.footer`
-  height: 320px;
+  height: 220px;
   width: 100%;
-  background-image: url('/images/white-wave.svg');
-  background-size: contain;
   background-repeat: repeat no-repeat;
-  background-color: #80deea;
+  background-color: ${({ theme }) => theme.colors.white};
 `;
 
 const Footer = () => {

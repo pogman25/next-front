@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { memo } from 'react';
 import styled from 'styled-components';
 import useLocale from '../../../hooks/useLocale';
 import Arrow from '../../shared/arrow';
@@ -86,4 +86,4 @@ const Banner = () => {
   );
 };
 
-export default Banner;
+export default memo(Banner);

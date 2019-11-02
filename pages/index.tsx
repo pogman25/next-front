@@ -6,6 +6,7 @@ import Banner from '../components/home/banner';
 import useLocale from '../hooks/useLocale';
 import Advantages from '../components/home/advantages';
 import Manual from '../components/home/manual';
+import DownloadBlock from '../components/home/download-block';
 
 const Home = () => {
   const { dictionary } = useLocale();
@@ -20,6 +21,7 @@ const Home = () => {
         <Banner />
         <Advantages />
         <Manual />
+        <DownloadBlock />
       </main>
       <Footer />
     </div>
