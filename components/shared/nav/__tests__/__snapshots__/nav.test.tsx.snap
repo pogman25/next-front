@@ -2,14 +2,46 @@
 
 exports[`Nav Test Nav render 1`] = `
 .c3 {
-  padding: 22px 15px 18px;
+  padding: 22px 15px 20px;
   font-size: 20px;
   line-height: 23px;
   color: #00bcd4;
   position: relative;
+  text-transform: lowercase;
 }
 
 .c3::before {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  -webkit-transform: scale(1);
+  -ms-transform: scale(1);
+  transform: scale(1);
+  height: 3px;
+  background-color: #00bcd4;
+  -webkit-transition: -webkit-transform 0.25s;
+  -webkit-transition: transform 0.25s;
+  transition: transform 0.25s;
+}
+
+.c3:hover::before {
+  -webkit-transform: scale(1);
+  -ms-transform: scale(1);
+  transform: scale(1);
+}
+
+.c4 {
+  padding: 22px 15px 20px;
+  font-size: 20px;
+  line-height: 23px;
+  color: #00bcd4;
+  position: relative;
+  text-transform: lowercase;
+}
+
+.c4::before {
   content: '';
   position: absolute;
   bottom: 0;
@@ -25,7 +57,7 @@ exports[`Nav Test Nav render 1`] = `
   transition: transform 0.25s;
 }
 
-.c3:hover::before {
+.c4:hover::before {
   -webkit-transform: scale(1);
   -ms-transform: scale(1);
   transform: scale(1);
@@ -83,53 +115,33 @@ exports[`Nav Test Nav render 1`] = `
   <ul
     className="c2"
   >
-    <li
-      className="jsx-2912633711"
-    >
+    <li>
       <a
         className="c3"
         onClick={[Function]}
         onMouseEnter={[Function]}
-        title="о приложении"
-      >
-        о приложении
-      </a>
+      />
     </li>
-    <li
-      className="jsx-2912633711"
-    >
+    <li>
       <a
-        className="c3"
+        className="c4"
         onClick={[Function]}
         onMouseEnter={[Function]}
-        title="искать рыбное место"
-      >
-        искать рыбное место
-      </a>
+      />
     </li>
-    <li
-      className="jsx-2912633711"
-    >
+    <li>
       <a
-        className="c3"
+        className="c4"
         onClick={[Function]}
         onMouseEnter={[Function]}
-        title="скачать"
-      >
-        скачать
-      </a>
+      />
     </li>
-    <li
-      className="jsx-2912633711"
-    >
+    <li>
       <a
-        className="c3"
+        className="c4"
         onClick={[Function]}
         onMouseEnter={[Function]}
-        title="поддержка"
-      >
-        поддержка
-      </a>
+      />
     </li>
   </ul>
 </nav>
