@@ -5,7 +5,8 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build",
-    "start": "next start",
+    "start": "next start -p $PORT",
+    "heroku-postbuild": "npm run build",
     "prettier": "prettier --write 'pages/**/*.ts?(x)' 'pages/**/*.ts?(x)'",
     "lint": "node_modules/eslint/bin/eslint.js 'components/**/*.ts?(x)' 'pages/**/*.ts?(x)'",
     "test": "jest"
