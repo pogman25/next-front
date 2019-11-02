@@ -1,9 +1,8 @@
 import React from 'react';
 import renderer from 'react-test-renderer';
 import { ThemeProvider } from 'styled-components';
-import { theme } from '../_app';
-import 'jest-styled-components';
-import Home from '..';
+import { theme } from '../pages/_app';
+import Home from '../pages';
 
 jest.mock('next/router', () => ({
   useRouter() {
