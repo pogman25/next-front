@@ -7,6 +7,10 @@ import ManualSteps from '../manual-steps';
 
 const CHANGE_DURATION = 4000;
 
+const Wrapper = styled(PromoWrapper)`
+  overflow: hidden;
+`;
+
 const Container = styled.div`
   margin-bottom: 65px;
   max-width: 388px;
@@ -73,7 +77,7 @@ const Manual = () => {
   }, [setActive, state]);
 
   return (
-    <PromoWrapper bgColor="grayBG">
+    <Wrapper bgColor="grayBG">
       <Container>
         <HeadText title="тяни!" subtitle="как пользоваться" />
         <ManualSteps active={state} setActive={setActive} />
@@ -86,7 +90,7 @@ const Manual = () => {
         <Image src="/images/manual-step-2.png" active={state === 2} />
         <Image src="/images/manual-step-3.png" active={state === 3} />
       </ImageContainer>
-    </PromoWrapper>
+    </Wrapper>
   );
 };
 
