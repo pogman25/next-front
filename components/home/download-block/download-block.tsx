@@ -15,19 +15,19 @@ const DownloadImg = styled.div`
   display: grid;
   grid-template-columns: repeat(2, 280px);
   grid-column-gap: 34px;
-  margin-top: -130px;
   margin-right: 20px;
 `;
 
 const TelScreen = styled.img`
-  margin-top: 30px;
   position: relative;
   z-index: 2;
+  transform: translateY(-100px);
 `;
 
 const TelMainScreen = styled.img`
   position: relative;
   z-index: 4;
+  transform: translateY(-130px);
 `;
 
 const DownloadBlock = () => {
