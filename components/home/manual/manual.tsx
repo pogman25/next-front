@@ -73,7 +73,7 @@ const Manual = () => {
   }, [setActive, state]);
 
   return (
-    <PromoWrapper color="grayBG">
+    <PromoWrapper bgColor="grayBG">
       <Container>
         <HeadText title="тяни!" subtitle="как пользоваться" />
         <ManualSteps active={state} setActive={setActive} />

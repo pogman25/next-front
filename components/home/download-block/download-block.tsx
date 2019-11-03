@@ -1,52 +1,37 @@
 import React from 'react';
 import styled from 'styled-components';
+import Waves from '../waves';
+import PromoWrapper from '../promo-wrapper';
+import DownloadText from './download-text';
 
-const Container = styled.section`
+const Container = styled(PromoWrapper)`
   height: 564px;
   position: relative;
-  background-color: ${({ theme }) => theme.colors.mainBlue};
 `;
 
-const BasicWave = styled.div`
-  position: absolute;
-  width: 100%;
-  height: 100px;
-  left: 0;
-  z-index: 1;
-  background-repeat: repeat no-repeat;
+const DownloadImg = styled.div`
+  flex: 1 1 0;
 `;
 
-const LightWave = styled(BasicWave)`
-  bottom: 300px;
-  background-color: ${({ theme }) => theme.colors.mainBlue};
-  background-image: url('/images/blue-wave.svg');
+const TelScreen = styled.img`
+  position: relative;
+  z-index: 2;
 `;
 
-const LighterWave = styled(BasicWave)`
-  bottom: 200px;
-  background-color: ${({ theme }) => theme.colors.mainBlueLight};
-  background-image: url('/images/light-blue-wave.svg');
-`;
-
-const LightestWave = styled(BasicWave)`
-  bottom: 100px;
-  background-color: ${({ theme }) => theme.colors.mainBlueLighter};
-  background-image: url('/images/lighter-blue-wave.svg');
-`;
-
-const WhiteWave = styled(BasicWave)`
-  bottom: 0;
-  background-color: ${({ theme }) => theme.colors.mainBlueLightest};
-  background-image: url('/images/white-wave.svg');
+const TelMainScreen = styled.img`
+  position: relative;
+  z-index: 4;
 `;
 
 const DownloadBlock = () => {
   return (
-    <Container>
-      <LightWave />
-      <LighterWave />
-      <LightestWave />
-      <WhiteWave />
+    <Container bgColor="mainBlue">
+      <DownloadImg>
+        <TelScreen src="/images/tel-screen.png" alt="Tel screen" />
+        <TelMainScreen src="/images/tel-main-screen.png" alt="Tel main screen" />
+      </DownloadImg>
+      <DownloadText />
+      <Waves />
     </Container>
   );
 };
