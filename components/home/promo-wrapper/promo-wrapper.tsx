@@ -2,14 +2,15 @@ import React from 'react';
 import styled from 'styled-components';
 
 interface PromoWrapperType {
-  color?: 'white' | 'grayBG';
+  bgColor?: 'white' | 'grayBG' | 'mainBlue';
+  className?: string;
 }
 
-const Container = styled.section`
+const Container = styled.section<{ bgColor: string }>`
   width: 100%;
   display: flex;
   justify-content: center;
-  background-color: ${({ theme, color }) => theme.colors[color]};
+  background-color: ${({ theme, bgColor }) => theme.colors[bgColor]};
 `;
 
 const Row = styled.div`
@@ -20,9 +21,13 @@ const Row = styled.div`
   margin: 60px 56px 80px;
 `;
 
-const PromoWrapper: React.SFC<PromoWrapperType> = ({ children, color = 'white' }) => {
+const PromoWrapper: React.SFC<PromoWrapperType> = ({
+  children,
+  className,
+  bgColor = 'white',
+}) => {
   return (
-    <Container color={color}>
+    <Container className={className} bgColor={bgColor}>
       <Row>{children}</Row>
     </Container>
   );

@@ -1,11 +1,15 @@
-import React, { useReducer, useCallback, useEffect } from 'react';
+import React, { useReducer, useCallback, useEffect, memo } from 'react';
 import styled from 'styled-components';
 import HeadText from '../head-text';
 import PromoWrapper from '../promo-wrapper';
 import Buttons from '../buttons';
 import ManualSteps from '../manual-steps';
 
-const CHANGE_DURATION = 4000;
+const CHANGE_DURATION = 3000;
+
+const Wrapper = styled(PromoWrapper)`
+  overflow: hidden;
+`;
 
 const Container = styled.div`
   margin-bottom: 65px;
@@ -73,7 +77,7 @@ const Manual = () => {
   }, [setActive, state]);
 
   return (
-    <PromoWrapper color="grayBG">
+    <Wrapper bgColor="grayBG">
       <Container>
         <HeadText title="тяни!" subtitle="как пользоваться" />
         <ManualSteps active={state} setActive={setActive} />
@@ -86,8 +90,8 @@ const Manual = () => {
         <Image src="/images/manual-step-2.png" active={state === 2} />
         <Image src="/images/manual-step-3.png" active={state === 3} />
       </ImageContainer>
-    </PromoWrapper>
+    </Wrapper>
   );
 };
 
-export default Manual;
+export default memo(Manual);
