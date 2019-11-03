@@ -91,13 +91,61 @@ exports[`Nav Test Nav render 1`] = `
   margin-left: 25px;
 }
 
-.c42 {
-  height: 320px;
+.c65 {
+  width: 56px;
+  height: 56px;
+  border-radius: 15px;
+  background-color: #f3f6f8;
+}
+
+.c60 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  height: 116px;
   width: 100%;
-  background-image: url('/images/white-wave.svg');
-  background-size: contain;
   background-repeat: repeat no-repeat;
-  background-color: #80deea;
+  background-color: #fff;
+  position: relative;
+  z-index: 5;
+}
+
+.c61 {
+  max-width: 1202px;
+  width: 100%;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-transform: translateY(-14px);
+  -ms-transform: translateY(-14px);
+  transform: translateY(-14px);
+}
+
+.c62 {
+  width: 56px;
+  height: 56px;
+  border-radius: 15px;
+  background-color: #f3f6f8;
+}
+
+.c63 {
+  -webkit-transform: rotateZ(180deg);
+  -ms-transform: rotateZ(180deg);
+  transform: rotateZ(180deg);
+}
+
+.c64 {
+  margin-left: 20px;
+  width: 200px;
+  font-size: 18px;
+  color: #cdcdcd;
+  line-height: 1.33333333;
 }
 
 .c5 {
@@ -280,6 +328,17 @@ exports[`Nav Test Nav render 1`] = `
   color: #00bcd4;
 }
 
+.c49 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  color: #fff;
+}
+
 .c16 {
   max-width: 280px;
   line-height: 1;
@@ -323,6 +382,19 @@ exports[`Nav Test Nav render 1`] = `
   background-color: #f3f6f8;
 }
 
+.c43 {
+  width: 100%;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  background-color: #00bcd4;
+}
+
 .c14 {
   display: -webkit-box;
   display: -webkit-flex;
@@ -337,14 +409,14 @@ exports[`Nav Test Nav render 1`] = `
   margin: 60px 56px 80px;
 }
 
-.c29 {
+.c30 {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
 }
 
-.c32 {
+.c33 {
   margin-left: -4px;
   font-size: 48px;
   position: relative;
@@ -353,7 +425,7 @@ exports[`Nav Test Nav render 1`] = `
   color: #008ea0;
 }
 
-.c32::before {
+.c33::before {
   content: '';
   position: absolute;
   width: 60px;
@@ -366,7 +438,7 @@ exports[`Nav Test Nav render 1`] = `
   transform: rotateZ(10deg);
 }
 
-.c36 {
+.c37 {
   margin-left: -4px;
   font-size: 48px;
   position: relative;
@@ -375,7 +447,7 @@ exports[`Nav Test Nav render 1`] = `
   color: #00bcd4;
 }
 
-.c36::before {
+.c37::before {
   content: '';
   position: absolute;
   width: 60px;
@@ -388,7 +460,7 @@ exports[`Nav Test Nav render 1`] = `
   transform: rotateZ(10deg);
 }
 
-.c30 {
+.c31 {
   position: relative;
   margin-top: 20px;
   -webkit-transition: color 250ms;
@@ -396,14 +468,14 @@ exports[`Nav Test Nav render 1`] = `
   color: #008ea0;
 }
 
-.c30:hover,
-.c30:hover .c31,
-.c30:active,
-.c30:active .c31 {
+.c31:hover,
+.c31:hover .c32,
+.c31:active,
+.c31:active .c32 {
   color: #008ea0;
 }
 
-.c35 {
+.c36 {
   position: relative;
   margin-top: 20px;
   -webkit-transition: color 250ms;
@@ -411,14 +483,14 @@ exports[`Nav Test Nav render 1`] = `
   color: #747474;
 }
 
-.c35:hover,
-.c35:hover .c31,
-.c35:active,
-.c35:active .c31 {
+.c36:hover,
+.c36:hover .c32,
+.c36:active,
+.c36:active .c32 {
   color: #008ea0;
 }
 
-.c33 {
+.c34 {
   max-width: 388px;
   font-size: 24px;
   -webkit-letter-spacing: 0.1px;
@@ -429,7 +501,7 @@ exports[`Nav Test Nav render 1`] = `
   line-height: 1.3;
 }
 
-.c34 {
+.c35 {
   width: 100%;
   position: absolute;
   top: 0;
@@ -441,6 +513,10 @@ exports[`Nav Test Nav render 1`] = `
 }
 
 .c28 {
+  overflow: hidden;
+}
+
+.c29 {
   margin-bottom: 65px;
   max-width: 388px;
   -webkit-flex: 0 0 388px;
@@ -450,35 +526,26 @@ exports[`Nav Test Nav render 1`] = `
   z-index: 1;
 }
 
-.c37 {
+.c38 {
   position: relative;
   z-index: 1;
   margin-top: 96px;
   height: 64px;
 }
 
-.c38 {
+.c39 {
   position: absolute;
   width: 794px;
   z-index: 1;
   left: 0;
 }
 
-.c39 {
+.c40 {
   -webkit-flex: 1 1 0;
   -ms-flex: 1 1 0;
   flex: 1 1 0;
   height: 100%;
   position: relative;
-}
-
-.c40 {
-  position: absolute;
-  z-index: 0;
-  left: 62px;
-  -webkit-transition: opacity 300ms;
-  transition: opacity 300ms;
-  opacity: 1;
 }
 
 .c41 {
@@ -487,7 +554,170 @@ exports[`Nav Test Nav render 1`] = `
   left: 62px;
   -webkit-transition: opacity 300ms;
   transition: opacity 300ms;
+  opacity: 1;
+}
+
+.c42 {
+  position: absolute;
+  z-index: 0;
+  left: 62px;
+  -webkit-transition: opacity 300ms;
+  transition: opacity 300ms;
   opacity: 0;
+}
+
+.c52 {
+  position: absolute;
+  width: 100%;
+  height: 100px;
+  left: 0;
+  z-index: 1;
+  background-repeat: repeat no-repeat;
+  bottom: 300px;
+  background-color: #00bcd4;
+}
+
+.c53 {
+  position: absolute;
+  width: 100%;
+  height: 100px;
+  left: 0;
+  z-index: 1;
+  background-repeat: repeat no-repeat;
+  bottom: 200px;
+  background-color: #26c6da;
+}
+
+.c54 {
+  position: absolute;
+  width: 100%;
+  height: 100px;
+  left: 0;
+  z-index: 1;
+  background-repeat: repeat no-repeat;
+  bottom: 100px;
+  background-color: #4dd0e1;
+}
+
+.c55 {
+  position: absolute;
+  width: 100%;
+  height: 100px;
+  left: 0;
+  z-index: 1;
+  background-repeat: repeat no-repeat;
+  bottom: 0;
+  background-color: #80deea;
+  z-index: 3;
+}
+
+.c56 {
+  position: absolute;
+  width: 100%;
+  height: 100px;
+  left: 0;
+  z-index: 1;
+  background-repeat: repeat no-repeat;
+  bottom: 300px;
+  background-image: url('/images/blue-wave.svg');
+}
+
+.c57 {
+  position: absolute;
+  width: 100%;
+  height: 100px;
+  left: 0;
+  z-index: 1;
+  background-repeat: repeat no-repeat;
+  bottom: 200px;
+  background-image: url('/images/light-blue-wave.svg');
+}
+
+.c58 {
+  position: absolute;
+  width: 100%;
+  height: 100px;
+  left: 0;
+  z-index: 1;
+  background-repeat: repeat no-repeat;
+  bottom: 100px;
+  background-image: url('/images/lighter-blue-wave.svg');
+  z-index: 3;
+}
+
+.c59 {
+  position: absolute;
+  width: 100%;
+  height: 100px;
+  left: 0;
+  z-index: 1;
+  background-repeat: repeat no-repeat;
+  bottom: 0;
+  background-image: url('/images/white-wave.svg');
+  z-index: 4;
+}
+
+.c48 {
+  -webkit-flex: 0 0 386px;
+  -ms-flex: 0 0 386px;
+  flex: 0 0 386px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  position: relative;
+  z-index: 5;
+}
+
+.c50 {
+  font-size: 24px;
+  color: #fff;
+  margin-top: 38px;
+  margin-bottom: 65px;
+}
+
+.c51 {
+  display: grid;
+  grid-template-columns: repeat(2,120px);
+  grid-column-gap: 40px;
+}
+
+.c44 {
+  height: 564px;
+  position: relative;
+}
+
+.c45 {
+  -webkit-flex: 1 1 0;
+  -ms-flex: 1 1 0;
+  flex: 1 1 0;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  display: grid;
+  grid-template-columns: repeat(2,280px);
+  grid-column-gap: 34px;
+  margin-right: 20px;
+}
+
+.c46 {
+  position: relative;
+  z-index: 2;
+  -webkit-transform: translateY(-100px);
+  -ms-transform: translateY(-100px);
+  transform: translateY(-100px);
+}
+
+.c47 {
+  position: relative;
+  z-index: 4;
+  -webkit-transform: translateY(-130px);
+  -ms-transform: translateY(-130px);
+  transform: translateY(-130px);
 }
 
 <div>
@@ -582,7 +812,6 @@ exports[`Nav Test Nav render 1`] = `
             <path
               clipRule="evenodd"
               d="M16.8303 8L15.4303 6.6L9.83032 12.2L9.83032 -1.42847e-07L7.83032 -1.83661e-07L7.83032 12.2L2.23032 6.6L0.830322 8L8.83032 16L16.8303 8Z"
-              fill="white"
               fillRule="evenodd"
               opacity="0.54"
             />
@@ -592,7 +821,6 @@ exports[`Nav Test Nav render 1`] = `
     </div>
     <section
       className="c13"
-      color="white"
     >
       <div
         className="c14"
@@ -776,14 +1004,13 @@ exports[`Nav Test Nav render 1`] = `
       </div>
     </section>
     <section
-      className="c27"
-      color="grayBG"
+      className="c27 c28"
     >
       <div
         className="c14"
       >
         <div
-          className="c28"
+          className="c29"
         >
           <div
             className="c15"
@@ -801,72 +1028,72 @@ exports[`Nav Test Nav render 1`] = `
             </span>
           </div>
           <div
-            className="c29"
+            className="c30"
           >
             <ul
               className=""
             >
               <li
-                className="c30"
+                className="c31"
               >
                 <h4
-                  className="c31 c32"
+                  className="c32 c33"
                 >
                   01
                 </h4>
                 <p
-                  className="c33"
+                  className="c34"
                 >
                   Зайди в пункт меню «искать рыбное место» или скачай в AppStore/ GooglePlayприложение.
                 </p>
                 <button
-                  className="c34"
+                  className="c35"
                   onClick={[Function]}
                 />
               </li>
               <li
-                className="c35"
+                className="c36"
               >
                 <h4
-                  className="c31 c36"
+                  className="c32 c37"
                 >
                   02
                 </h4>
                 <p
-                  className="c33"
+                  className="c34"
                 >
                   Пройди простую регистрацию. Это легко и бесплатно. Отвечаем!
                 </p>
                 <button
-                  className="c34"
+                  className="c35"
                   onClick={[Function]}
                 />
               </li>
               <li
-                className="c35"
+                className="c36"
               >
                 <h4
-                  className="c31 c36"
+                  className="c32 c37"
                 >
                   03
                 </h4>
                 <p
-                  className="c33"
+                  className="c34"
                 >
                   Открой фильтр и найди клёвое место. Удачи!
                 </p>
                 <button
-                  className="c34"
+                  className="c35"
                   onClick={[Function]}
                 />
               </li>
             </ul>
           </div>
           <div
-            className="c37"
+            className="c38"
           >
             <div
-              className="c21 c38"
+              className="c21 c39"
             >
               <div
                 className="c23"
@@ -893,40 +1120,154 @@ exports[`Nav Test Nav render 1`] = `
           </div>
         </div>
         <div
-          className="c39"
+          className="c40"
         >
           <img
-            className="c40"
+            className="c41"
             src="/images/manual-step-1.png"
           />
           <img
-            className="c41"
+            className="c42"
             src="/images/manual-step-2.png"
           />
           <img
-            className="c41"
+            className="c42"
             src="/images/manual-step-3.png"
           />
         </div>
       </div>
     </section>
+    <section
+      className="c43 c44"
+    >
+      <div
+        className="c14"
+      >
+        <div
+          className="c45"
+        >
+          <img
+            alt="Tel screen"
+            className="c46"
+            src="/images/tel-screen.png"
+          />
+          <img
+            alt="Tel main screen"
+            className="c47"
+            src="/images/tel-main-screen.png"
+          />
+        </div>
+        <div
+          className="c48"
+        >
+          <div
+            className="c49"
+            color="white"
+          >
+            <h2
+              className="c16"
+            >
+              подсекай!
+            </h2>
+            <span
+              className="c17"
+            >
+              скачать приложение
+            </span>
+          </div>
+          <p
+            className="c50"
+          >
+            Не тяни - выбери свою площадку, установи приложение и принеси рыбы на ужин.
+          </p>
+          <div
+            className="c51"
+          >
+            <img
+              alt="App Store"
+              src="/images/AppStore.svg"
+            />
+            <img
+              alt="Google Play"
+              src="/images/GooglePlay.svg"
+            />
+          </div>
+        </div>
+        <div
+          className="c52"
+        />
+        <div
+          className="c53"
+        />
+        <div
+          className="c54"
+        />
+        <div
+          className="c55"
+        />
+        <div
+          className="c56"
+        />
+        <div
+          className="c57"
+        />
+        <div
+          className="c58"
+        />
+        <div
+          className="c59"
+        />
+      </div>
+    </section>
   </main>
   <footer
-    className="c42"
+    className="c60"
   >
-     
-    <button
-      onClick={[Function]}
-      type="button"
+    <div
+      className="c61"
     >
-      RU
-    </button>
-    <button
-      onClick={[Function]}
-      type="button"
-    >
-      EN
-    </button>
+      <button
+        className="c62"
+      >
+        <svg
+          className="c63"
+          fill="none"
+          height="16"
+          viewBox="0 0 17 16"
+          width="17"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            clipRule="evenodd"
+            d="M16.8303 8L15.4303 6.6L9.83032 12.2L9.83032 -1.42847e-07L7.83032 -1.83661e-07L7.83032 12.2L2.23032 6.6L0.830322 8L8.83032 16L16.8303 8Z"
+            fill="black"
+            fillRule="evenodd"
+            opacity="0.54"
+          />
+        </svg>
+      </button>
+      <p
+        className="c64"
+      >
+        Все права защищены © 2019 «Hook»
+      </p>
+      <div>
+        <button
+          className="c65"
+          onClick={[Function]}
+          type="button"
+        >
+          RU
+        </button>
+        <button
+          className="c65"
+          onClick={[Function]}
+          type="button"
+        >
+          EN
+        </button>
+      </div>
+    </div>
   </footer>
 </div>
 `;
