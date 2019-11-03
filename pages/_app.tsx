@@ -7,8 +7,10 @@ import LocaleContext, { locales } from '../locale';
 export const theme = {
   colors: {
     white: '#fff',
+    black: '#000',
     mainGray: '#eee',
     grayText: '#747474',
+    grayLightText: '#cdcdcd',
     grayBG: '#f3f6f8',
     mainBlueLightest: '#80deea',
     mainBlueLighter: '#4dd0e1',
@@ -24,6 +26,7 @@ export const theme = {
     xl: '56px',
     l: '24px',
     ml: '20px',
+    m: '18px',
     s: '14px',
   },
 };

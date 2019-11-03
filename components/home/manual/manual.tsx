@@ -5,7 +5,7 @@ import PromoWrapper from '../promo-wrapper';
 import Buttons from '../buttons';
 import ManualSteps from '../manual-steps';
 
-const CHANGE_DURATION = 4000;
+const CHANGE_DURATION = 3000;
 
 const Wrapper = styled(PromoWrapper)`
   overflow: hidden;
