@@ -1,1 +1,1 @@
-export { default } from './promo-wrapper';
+export { default, Row } from './promo-wrapper';
