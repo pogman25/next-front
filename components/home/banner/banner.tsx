@@ -12,6 +12,10 @@ const Container = styled.div`
   background-image: url('/images/fisherman.png');
   background-repeat: no-repeat;
   background-position: 100% 100%;
+
+  @media (max-width: 1024px) and (min-width: 320px) {
+    background-position: calc(100% - 54.7vw + 560px) 100%;
+  }
 `;
 
 const TextContainer = styled.div`
@@ -49,6 +53,10 @@ const Info = styled.p`
   font-size: ${({ theme }) => theme.fontSizes.l};
   line-height: 1.35;
   margin: 27px 0 0 4px;
+
+  @media (max-width: 1024px) {
+    max-width: 365px;
+  }
 `;
 
 const MoreInfo = styled.button`

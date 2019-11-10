@@ -13,7 +13,7 @@ const TextContainer = styled.div`
   color: ${({ theme, color }) => theme.colors[color]};
 `;
 
-const H2 = styled.h2`
+export const H2 = styled.h2`
   max-width: 280px;
   line-height: 1;
   font-size: ${({ theme }) => theme.fontSizes.xl};

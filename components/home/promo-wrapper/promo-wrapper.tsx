@@ -13,7 +13,7 @@ const Container = styled.section<{ bgColor: string }>`
   background-color: ${({ theme, bgColor }) => theme.colors[bgColor]};
 `;
 
-const Row = styled.div`
+export const Row = styled.div`
   display: flex;
   justify-content: space-between;
   max-width: 1202px;

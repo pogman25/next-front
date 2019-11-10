@@ -1,1 +1,1 @@
-export { default } from './head-text';
+export { default, H2 } from './head-text';

@@ -1,12 +1,18 @@
 import React from 'react';
 import styled from 'styled-components';
 import Waves from '../waves';
-import PromoWrapper from '../promo-wrapper';
+import PromoWrapper, { Row } from '../promo-wrapper';
 import DownloadText from './download-text';
 
 const Container = styled(PromoWrapper)`
   height: 564px;
   position: relative;
+
+  ${Row} {
+    @media (max-width: 960px) {
+      justify-content: center;
+    }
+  }
 `;
 
 const DownloadImg = styled.div`
@@ -16,12 +22,22 @@ const DownloadImg = styled.div`
   grid-template-columns: repeat(2, 280px);
   grid-column-gap: 34px;
   margin-right: 20px;
+
+  @media (max-width: 960px) {
+    grid-template-columns: 280px;
+    flex: 0 0 0;
+    margin-right: 32px;
+  }
 `;
 
 const TelScreen = styled.img`
   position: relative;
   z-index: 2;
   transform: translateY(-100px);
+
+  @media (max-width: 960px) {
+    display: none;
+  }
 `;
 
 const TelMainScreen = styled.img`

@@ -6,6 +6,12 @@ import Buttons from '../buttons';
 const Container = styled.div`
   max-width: 794px;
   margin-top: 21px;
+  margin-left: 67px;
+
+  @media (max-width: 1023px) {
+    margin-top: 36px;
+    margin-left: 0;
+  }
 `;
 
 const List = styled.ul`

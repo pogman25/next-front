@@ -8,6 +8,11 @@ const Container = styled.div`
   flex-direction: column;
   position: relative;
   z-index: 5;
+
+  @media (max-width: 1070px) {
+    max-width: 280px;
+    flex: 0 0 280px;
+  }
 `;
 
 const Text = styled.p`
