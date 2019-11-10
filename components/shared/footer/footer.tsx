@@ -16,6 +16,7 @@ const Container = styled.footer`
 
 const Row = styled.div`
   max-width: 1202px;
+  margin: 0 56px;
   width: 100%;
   display: flex;
   transform: translateY(-14px);

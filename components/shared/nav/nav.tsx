@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { memo } from 'react';
 import styled from 'styled-components';
 import Link from 'next/link';
 import HookLogo from '../hook-logo';
@@ -48,4 +48,4 @@ const Nav = () => {
   );
 };
 
-export default Nav;
+export default memo(Nav);
