@@ -20,6 +20,10 @@ const Text = styled.p`
   color: ${({ theme }) => theme.colors.white};
   margin-top: 38px;
   margin-bottom: 65px;
+
+  @media (max-width: 1023px) {
+    margin-bottom: 38px;
+  }
 `;
 
 const StoreDiv = styled.div`

@@ -29,6 +29,10 @@ const Image = styled.img<{ active: boolean }>`
     width: unset;
     right: -56px;
   }
+
+  @media (max-width: 649px) {
+    display: none;
+  }
 `;
 
 const ManualImgs: React.FC<{ state: number }> = ({ state }) => {

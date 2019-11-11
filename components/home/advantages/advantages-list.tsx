@@ -19,6 +19,10 @@ const List = styled.ul`
   grid-template-columns: repeat(2, 1fr);
   grid-column-gap: 32px;
   grid-row-gap: 23px;
+
+  @media (max-width: 599px) {
+    grid-template-columns: 1fr;
+  }
 `;
 
 const Item = styled.li`
