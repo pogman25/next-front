@@ -1,69 +1,23 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`Nav Test Nav render 1`] = `
-.c3 {
-  padding: 22px 15px 20px;
-  font-size: 20px;
-  line-height: 23px;
-  color: #00bcd4;
-  position: relative;
-  text-transform: lowercase;
+Array [
+  .c0 {
+  height: 64px;
 }
 
-.c3::before {
-  content: '';
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  width: 100%;
-  -webkit-transform: scale(1);
-  -ms-transform: scale(1);
-  transform: scale(1);
-  height: 3px;
-  background-color: #00bcd4;
-  -webkit-transition: -webkit-transform 0.25s;
-  -webkit-transition: transform 0.25s;
-  transition: transform 0.25s;
-}
-
-.c3:hover::before {
-  -webkit-transform: scale(1);
-  -ms-transform: scale(1);
-  transform: scale(1);
-}
-
-.c4 {
-  padding: 22px 15px 20px;
-  font-size: 20px;
-  line-height: 23px;
-  color: #00bcd4;
-  position: relative;
-  text-transform: lowercase;
-}
-
-.c4::before {
-  content: '';
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  width: 100%;
-  -webkit-transform: scale(0);
-  -ms-transform: scale(0);
-  transform: scale(0);
-  height: 3px;
-  background-color: #00bcd4;
-  -webkit-transition: -webkit-transform 0.25s;
-  -webkit-transition: transform 0.25s;
-  transition: transform 0.25s;
-}
-
-.c4:hover::before {
-  -webkit-transform: scale(1);
-  -ms-transform: scale(1);
-  transform: scale(1);
+<div
+    className="c0"
+  />,
+  .c2 {
+  margin-right: 22px;
 }
 
 .c0 {
+  position: fixed;
+  top: 0;
+  z-index: 3;
+  background-color: #fff;
   width: 100%;
   height: 64px;
   display: -webkit-box;
@@ -78,650 +32,13 @@ exports[`Nav Test Nav render 1`] = `
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
-}
-
-.c2 {
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
 }
 
 .c1 {
   margin-left: 25px;
 }
 
-.c65 {
-  width: 56px;
-  height: 56px;
-  border-radius: 15px;
-  background-color: #f3f6f8;
-}
-
-.c60 {
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-  -webkit-justify-content: center;
-  -ms-flex-pack: center;
-  justify-content: center;
-  height: 116px;
-  width: 100%;
-  background-repeat: repeat no-repeat;
-  background-color: #fff;
-  position: relative;
-  z-index: 5;
-}
-
-.c61 {
-  max-width: 1202px;
-  width: 100%;
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-transform: translateY(-14px);
-  -ms-transform: translateY(-14px);
-  transform: translateY(-14px);
-}
-
-.c62 {
-  width: 56px;
-  height: 56px;
-  border-radius: 15px;
-  background-color: #f3f6f8;
-}
-
-.c63 {
-  -webkit-transform: rotateZ(180deg);
-  -ms-transform: rotateZ(180deg);
-  transform: rotateZ(180deg);
-}
-
-.c64 {
-  margin-left: 20px;
-  width: 200px;
-  font-size: 18px;
-  color: #cdcdcd;
-  line-height: 1.33333333;
-}
-
-.c5 {
-  width: 100%;
-  height: 576px;
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-  -webkit-justify-content: center;
-  -ms-flex-pack: center;
-  justify-content: center;
-  background-color: #00bcd4;
-  background-image: url('/images/fisherman.png');
-  background-repeat: no-repeat;
-  background-position: 100% 100%;
-}
-
-.c6 {
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-flex-direction: column;
-  -ms-flex-direction: column;
-  flex-direction: column;
-  -webkit-align-items: flex-start;
-  -webkit-box-align: flex-start;
-  -ms-flex-align: flex-start;
-  align-items: flex-start;
-  max-width: 1216px;
-  width: 100%;
-  margin: 60px 56px 80px;
-  color: #fff;
-}
-
-.c7 {
-  font-weight: bold;
-  font-size: 56px;
-  line-height: 1;
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-flex-direction: column;
-  -ms-flex-direction: column;
-  flex-direction: column;
-}
-
-.c8 {
-  font-size: 72px;
-  line-height: 1.1;
-}
-
-.c9 {
-  font-size: 20px;
-  font-style: italic;
-  margin: 5px 0 0 6px;
-  -webkit-letter-spacing: -0.3px;
-  -moz-letter-spacing: -0.3px;
-  -ms-letter-spacing: -0.3px;
-  letter-spacing: -0.3px;
-}
-
-.c10 {
-  max-width: 440px;
-  font-size: 24px;
-  line-height: 1.35;
-  margin: 27px 0 0 4px;
-}
-
-.c11 {
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-align-items: center;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
-  font-size: 20px;
-  color: #fff;
-  font-style: italic;
-  -webkit-letter-spacing: -0.3px;
-  -moz-letter-spacing: -0.3px;
-  -ms-letter-spacing: -0.3px;
-  letter-spacing: -0.3px;
-  margin-top: auto;
-  padding: 0 6px;
-}
-
-.c12 {
-  margin-left: 14px;
-}
-
-.c25 {
-  height: 64px;
-  border-radius: 10px;
-  font-size: 14px;
-  text-transform: uppercase;
-  font-weight: 600;
-  outline: none;
-  -webkit-transition: background-color 250ms;
-  transition: background-color 250ms;
-  background-color: #00bcd4;
-  color: #fff;
-}
-
-.c25:hover,
-.c25:focus {
-  background-color: #00a4b8;
-}
-
-.c25:active {
-  background-color: #008ea0;
-}
-
-.c21 {
-  display: grid;
-  grid-template-columns: repeat(2,1fr);
-  grid-column-gap: 32px;
-  max-width: 800px;
-  z-index: 1;
-  position: relative;
-}
-
-.c26 {
-  width: 100%;
-}
-
-.c23 {
-  position: relative;
-}
-
-.c24 {
-  position: absolute;
-  font-size: 20px;
-  line-height: 23px;
-  top: -35px;
-  left: 0;
-  color: #00bcd4;
-  -webkit-letter-spacing: -0.3px;
-  -moz-letter-spacing: -0.3px;
-  -ms-letter-spacing: -0.3px;
-  letter-spacing: -0.3px;
-  font-style: italic;
-}
-
-.c18 {
-  max-width: 794px;
-  margin-top: 21px;
-}
-
-.c19 {
-  display: grid;
-  grid-template-columns: repeat(2,1fr);
-  grid-column-gap: 32px;
-  grid-row-gap: 23px;
-}
-
-.c20 {
-  font-size: 24px;
-  color: #747474;
-  line-height: 1.33333333;
-}
-
-.c22 {
-  margin-top: 98px;
-}
-
-.c15 {
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-flex-direction: column;
-  -ms-flex-direction: column;
-  flex-direction: column;
-  color: #00bcd4;
-}
-
-.c49 {
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-flex-direction: column;
-  -ms-flex-direction: column;
-  flex-direction: column;
-  color: #fff;
-}
-
-.c16 {
-  max-width: 280px;
-  line-height: 1;
-  font-size: 56px;
-}
-
-.c17 {
-  font-style: italic;
-  font-size: 20px;
-  line-height: 1.15;
-  margin-top: 15px;
-  -webkit-letter-spacing: -0.3px;
-  -moz-letter-spacing: -0.3px;
-  -ms-letter-spacing: -0.3px;
-  letter-spacing: -0.3px;
-}
-
-.c13 {
-  width: 100%;
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-  -webkit-justify-content: center;
-  -ms-flex-pack: center;
-  justify-content: center;
-  background-color: #fff;
-}
-
-.c27 {
-  width: 100%;
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-  -webkit-justify-content: center;
-  -ms-flex-pack: center;
-  justify-content: center;
-  background-color: #f3f6f8;
-}
-
-.c43 {
-  width: 100%;
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-  -webkit-justify-content: center;
-  -ms-flex-pack: center;
-  justify-content: center;
-  background-color: #00bcd4;
-}
-
-.c14 {
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: justify;
-  -webkit-justify-content: space-between;
-  -ms-flex-pack: justify;
-  justify-content: space-between;
-  max-width: 1202px;
-  width: 100%;
-  margin: 60px 56px 80px;
-}
-
-.c30 {
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-}
-
-.c33 {
-  margin-left: -4px;
-  font-size: 48px;
-  position: relative;
-  -webkit-transition: color 250ms;
-  transition: color 250ms;
-  color: #008ea0;
-}
-
-.c33::before {
-  content: '';
-  position: absolute;
-  width: 60px;
-  height: 20px;
-  background-color: #f3f6f8;
-  z-index: 1;
-  bottom: 4px;
-  -webkit-transform: rotateZ(10deg);
-  -ms-transform: rotateZ(10deg);
-  transform: rotateZ(10deg);
-}
-
-.c37 {
-  margin-left: -4px;
-  font-size: 48px;
-  position: relative;
-  -webkit-transition: color 250ms;
-  transition: color 250ms;
-  color: #00bcd4;
-}
-
-.c37::before {
-  content: '';
-  position: absolute;
-  width: 60px;
-  height: 20px;
-  background-color: #f3f6f8;
-  z-index: 1;
-  bottom: 4px;
-  -webkit-transform: rotateZ(10deg);
-  -ms-transform: rotateZ(10deg);
-  transform: rotateZ(10deg);
-}
-
-.c31 {
-  position: relative;
-  margin-top: 20px;
-  -webkit-transition: color 250ms;
-  transition: color 250ms;
-  color: #008ea0;
-}
-
-.c31:hover,
-.c31:hover .c32,
-.c31:active,
-.c31:active .c32 {
-  color: #008ea0;
-}
-
-.c36 {
-  position: relative;
-  margin-top: 20px;
-  -webkit-transition: color 250ms;
-  transition: color 250ms;
-  color: #747474;
-}
-
-.c36:hover,
-.c36:hover .c32,
-.c36:active,
-.c36:active .c32 {
-  color: #008ea0;
-}
-
-.c34 {
-  max-width: 388px;
-  font-size: 24px;
-  -webkit-letter-spacing: 0.1px;
-  -moz-letter-spacing: 0.1px;
-  -ms-letter-spacing: 0.1px;
-  letter-spacing: 0.1px;
-  margin-top: -9px;
-  line-height: 1.3;
-}
-
-.c35 {
-  width: 100%;
-  position: absolute;
-  top: 0;
-  right: 0;
-  bottom: 0;
-  left: 0;
-  z-index: 1;
-  outline: none;
-}
-
-.c28 {
-  overflow: hidden;
-}
-
-.c29 {
-  margin-bottom: 65px;
-  max-width: 388px;
-  -webkit-flex: 0 0 388px;
-  -ms-flex: 0 0 388px;
-  flex: 0 0 388px;
-  position: relative;
-  z-index: 1;
-}
-
-.c38 {
-  position: relative;
-  z-index: 1;
-  margin-top: 96px;
-  height: 64px;
-}
-
-.c39 {
-  position: absolute;
-  width: 794px;
-  z-index: 1;
-  left: 0;
-}
-
-.c40 {
-  -webkit-flex: 1 1 0;
-  -ms-flex: 1 1 0;
-  flex: 1 1 0;
-  height: 100%;
-  position: relative;
-}
-
-.c41 {
-  position: absolute;
-  z-index: 0;
-  left: 62px;
-  -webkit-transition: opacity 300ms;
-  transition: opacity 300ms;
-  opacity: 1;
-}
-
-.c42 {
-  position: absolute;
-  z-index: 0;
-  left: 62px;
-  -webkit-transition: opacity 300ms;
-  transition: opacity 300ms;
-  opacity: 0;
-}
-
-.c52 {
-  position: absolute;
-  width: 100%;
-  height: 100px;
-  left: 0;
-  z-index: 1;
-  background-repeat: repeat no-repeat;
-  bottom: 300px;
-  background-color: #00bcd4;
-}
-
-.c53 {
-  position: absolute;
-  width: 100%;
-  height: 100px;
-  left: 0;
-  z-index: 1;
-  background-repeat: repeat no-repeat;
-  bottom: 200px;
-  background-color: #26c6da;
-}
-
-.c54 {
-  position: absolute;
-  width: 100%;
-  height: 100px;
-  left: 0;
-  z-index: 1;
-  background-repeat: repeat no-repeat;
-  bottom: 100px;
-  background-color: #4dd0e1;
-}
-
-.c55 {
-  position: absolute;
-  width: 100%;
-  height: 100px;
-  left: 0;
-  z-index: 1;
-  background-repeat: repeat no-repeat;
-  bottom: 0;
-  background-color: #80deea;
-  z-index: 3;
-}
-
-.c56 {
-  position: absolute;
-  width: 100%;
-  height: 100px;
-  left: 0;
-  z-index: 1;
-  background-repeat: repeat no-repeat;
-  bottom: 300px;
-  background-image: url('/images/blue-wave.svg');
-}
-
-.c57 {
-  position: absolute;
-  width: 100%;
-  height: 100px;
-  left: 0;
-  z-index: 1;
-  background-repeat: repeat no-repeat;
-  bottom: 200px;
-  background-image: url('/images/light-blue-wave.svg');
-}
-
-.c58 {
-  position: absolute;
-  width: 100%;
-  height: 100px;
-  left: 0;
-  z-index: 1;
-  background-repeat: repeat no-repeat;
-  bottom: 100px;
-  background-image: url('/images/lighter-blue-wave.svg');
-  z-index: 3;
-}
-
-.c59 {
-  position: absolute;
-  width: 100%;
-  height: 100px;
-  left: 0;
-  z-index: 1;
-  background-repeat: repeat no-repeat;
-  bottom: 0;
-  background-image: url('/images/white-wave.svg');
-  z-index: 4;
-}
-
-.c48 {
-  -webkit-flex: 0 0 386px;
-  -ms-flex: 0 0 386px;
-  flex: 0 0 386px;
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-flex-direction: column;
-  -ms-flex-direction: column;
-  flex-direction: column;
-  position: relative;
-  z-index: 5;
-}
-
-.c50 {
-  font-size: 24px;
-  color: #fff;
-  margin-top: 38px;
-  margin-bottom: 65px;
-}
-
-.c51 {
-  display: grid;
-  grid-template-columns: repeat(2,120px);
-  grid-column-gap: 40px;
-}
-
-.c44 {
-  height: 564px;
-  position: relative;
-}
-
-.c45 {
-  -webkit-flex: 1 1 0;
-  -ms-flex: 1 1 0;
-  flex: 1 1 0;
-  -webkit-box-pack: center;
-  -webkit-justify-content: center;
-  -ms-flex-pack: center;
-  justify-content: center;
-  display: grid;
-  grid-template-columns: repeat(2,280px);
-  grid-column-gap: 34px;
-  margin-right: 20px;
-}
-
-.c46 {
-  position: relative;
-  z-index: 2;
-  -webkit-transform: translateY(-100px);
-  -ms-transform: translateY(-100px);
-  transform: translateY(-100px);
-}
-
-.c47 {
-  position: relative;
-  z-index: 4;
-  -webkit-transform: translateY(-130px);
-  -ms-transform: translateY(-130px);
-  transform: translateY(-130px);
-}
-
-<div>
-  <nav
+<nav
     className="c0"
   >
     <a
@@ -742,67 +59,822 @@ exports[`Nav Test Nav render 1`] = `
         />
       </svg>
     </a>
-    <ul
+    <button
       className="c2"
+      onClick={[Function]}
+      type="button"
     >
-      <li>
-        <a
-          className="c3"
-          onClick={[Function]}
-          onMouseEnter={[Function]}
+      <svg
+        fill="none"
+        height="24"
+        viewBox="0 0 24 24"
+        width="24"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          clipRule="evenodd"
+          d="M3 18H21V16H3V18ZM3 13H21V11H3V13ZM3 6V8H21V6H3Z"
+          fill="#00BCD4"
+          fillRule="evenodd"
         />
-      </li>
-      <li>
-        <a
-          className="c4"
-          onClick={[Function]}
-          onMouseEnter={[Function]}
-        />
-      </li>
-      <li>
-        <a
-          className="c4"
-          onClick={[Function]}
-          onMouseEnter={[Function]}
-        />
-      </li>
-      <li>
-        <a
-          className="c4"
-          onClick={[Function]}
-          onMouseEnter={[Function]}
-        />
-      </li>
-    </ul>
-  </nav>
-  <main>
+      </svg>
+    </button>
+  </nav>,
+  .c0 {
+  width: 100%;
+  height: 576px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  background-color: #00bcd4;
+  background-image: url('/images/fisherman.png');
+  background-repeat: no-repeat;
+  background-position: 100% 100%;
+}
+
+.c1 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-align-items: flex-start;
+  -webkit-box-align: flex-start;
+  -ms-flex-align: flex-start;
+  align-items: flex-start;
+  max-width: 1216px;
+  width: 100%;
+  margin: 60px 56px 80px;
+  color: #fff;
+}
+
+.c2 {
+  font-weight: bold;
+  font-size: 56px;
+  line-height: 1;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+}
+
+.c3 {
+  font-size: 72px;
+  line-height: 1.1;
+}
+
+.c4 {
+  font-size: 20px;
+  font-style: italic;
+  margin: 5px 0 0 6px;
+  -webkit-letter-spacing: -0.3px;
+  -moz-letter-spacing: -0.3px;
+  -ms-letter-spacing: -0.3px;
+  letter-spacing: -0.3px;
+}
+
+.c5 {
+  max-width: 440px;
+  font-size: 24px;
+  line-height: 1.35;
+  margin: 27px 0 0 4px;
+}
+
+.c6 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  font-size: 20px;
+  color: #fff;
+  font-style: italic;
+  -webkit-letter-spacing: -0.3px;
+  -moz-letter-spacing: -0.3px;
+  -ms-letter-spacing: -0.3px;
+  letter-spacing: -0.3px;
+  margin-top: auto;
+  padding: 0 6px;
+}
+
+.c7 {
+  margin-left: 14px;
+}
+
+.c23 {
+  height: 64px;
+  border-radius: 10px;
+  font-size: 14px;
+  text-transform: uppercase;
+  font-weight: 600;
+  outline: none;
+  -webkit-transition: background-color 250ms;
+  transition: background-color 250ms;
+  background-color: #00bcd4;
+  color: #fff;
+}
+
+.c23:hover,
+.c23:focus {
+  background-color: #00a4b8;
+}
+
+.c23:active {
+  background-color: #008ea0;
+}
+
+.c19 {
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+  grid-column-gap: 32px;
+  max-width: 800px;
+  z-index: 1;
+  position: relative;
+}
+
+.c24 {
+  width: 100%;
+}
+
+.c21 {
+  position: relative;
+}
+
+.c22 {
+  min-width: 200px;
+  position: absolute;
+  font-size: 20px;
+  line-height: 23px;
+  top: -35px;
+  left: 0;
+  color: #00bcd4;
+  -webkit-letter-spacing: -0.3px;
+  -moz-letter-spacing: -0.3px;
+  -ms-letter-spacing: -0.3px;
+  letter-spacing: -0.3px;
+  font-style: italic;
+}
+
+.c16 {
+  max-width: 794px;
+  margin-top: 21px;
+  margin-left: 67px;
+}
+
+.c17 {
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+  grid-column-gap: 32px;
+  grid-row-gap: 23px;
+}
+
+.c18 {
+  font-size: 24px;
+  color: #747474;
+  line-height: 1.33333333;
+}
+
+.c20 {
+  margin-top: 98px;
+}
+
+.c12 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  color: #00bcd4;
+}
+
+.c47 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  color: #fff;
+}
+
+.c14 {
+  max-width: 280px;
+  line-height: 1;
+  font-size: 56px;
+}
+
+.c15 {
+  font-style: italic;
+  font-size: 20px;
+  line-height: 1.15;
+  margin-top: 15px;
+  -webkit-letter-spacing: -0.3px;
+  -moz-letter-spacing: -0.3px;
+  -ms-letter-spacing: -0.3px;
+  letter-spacing: -0.3px;
+}
+
+.c8 {
+  width: 100%;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  background-color: #fff;
+}
+
+.c25 {
+  width: 100%;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  background-color: #f3f6f8;
+}
+
+.c41 {
+  width: 100%;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  background-color: #00bcd4;
+}
+
+.c11 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  max-width: 1202px;
+  width: 100%;
+  margin: 60px 56px 80px;
+}
+
+.c28 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.c31 {
+  margin-left: -4px;
+  font-size: 48px;
+  position: relative;
+  -webkit-transition: color 250ms;
+  transition: color 250ms;
+  color: #008ea0;
+}
+
+.c31::before {
+  content: '';
+  position: absolute;
+  width: 60px;
+  height: 20px;
+  background-color: #f3f6f8;
+  z-index: 1;
+  bottom: 4px;
+  -webkit-transform: rotateZ(10deg);
+  -ms-transform: rotateZ(10deg);
+  transform: rotateZ(10deg);
+}
+
+.c35 {
+  margin-left: -4px;
+  font-size: 48px;
+  position: relative;
+  -webkit-transition: color 250ms;
+  transition: color 250ms;
+  color: #00bcd4;
+}
+
+.c35::before {
+  content: '';
+  position: absolute;
+  width: 60px;
+  height: 20px;
+  background-color: #f3f6f8;
+  z-index: 1;
+  bottom: 4px;
+  -webkit-transform: rotateZ(10deg);
+  -ms-transform: rotateZ(10deg);
+  transform: rotateZ(10deg);
+}
+
+.c29 {
+  position: relative;
+  margin-top: 20px;
+  -webkit-transition: color 250ms;
+  transition: color 250ms;
+  color: #008ea0;
+}
+
+.c29:hover,
+.c29:hover .c30,
+.c29:active,
+.c29:active .c30 {
+  color: #008ea0;
+}
+
+.c34 {
+  position: relative;
+  margin-top: 20px;
+  -webkit-transition: color 250ms;
+  transition: color 250ms;
+  color: #747474;
+}
+
+.c34:hover,
+.c34:hover .c30,
+.c34:active,
+.c34:active .c30 {
+  color: #008ea0;
+}
+
+.c32 {
+  max-width: 388px;
+  font-size: 24px;
+  -webkit-letter-spacing: 0.1px;
+  -moz-letter-spacing: 0.1px;
+  -ms-letter-spacing: 0.1px;
+  letter-spacing: 0.1px;
+  margin-top: -9px;
+  line-height: 1.3;
+}
+
+.c33 {
+  width: 100%;
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 1;
+  outline: none;
+}
+
+.c39 {
+  width: 100%;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  background-color: #f3f6f8;
+}
+
+.c40 {
+  width: 100%;
+  max-width: 1202px;
+  padding: 0 56px 146px;
+}
+
+.c36 {
+  -webkit-flex: 1 1 0;
+  -ms-flex: 1 1 0;
+  flex: 1 1 0;
+  height: 100%;
+  position: relative;
+}
+
+.c37 {
+  position: absolute;
+  z-index: 0;
+  -webkit-transition: opacity 300ms;
+  transition: opacity 300ms;
+  opacity: 1;
+}
+
+.c38 {
+  position: absolute;
+  z-index: 0;
+  -webkit-transition: opacity 300ms;
+  transition: opacity 300ms;
+  opacity: 0;
+}
+
+.c26 {
+  overflow: hidden;
+}
+
+.c27 {
+  margin-bottom: 65px;
+  max-width: 388px;
+  -webkit-flex: 0 0 388px;
+  -ms-flex: 0 0 388px;
+  flex: 0 0 388px;
+  position: relative;
+  z-index: 1;
+}
+
+.c50 {
+  position: absolute;
+  width: 100%;
+  height: 100px;
+  left: 0;
+  z-index: 1;
+  background-repeat: repeat no-repeat;
+  bottom: 300px;
+  background-color: #00bcd4;
+}
+
+.c51 {
+  position: absolute;
+  width: 100%;
+  height: 100px;
+  left: 0;
+  z-index: 1;
+  background-repeat: repeat no-repeat;
+  bottom: 200px;
+  background-color: #26c6da;
+}
+
+.c52 {
+  position: absolute;
+  width: 100%;
+  height: 100px;
+  left: 0;
+  z-index: 1;
+  background-repeat: repeat no-repeat;
+  bottom: 100px;
+  background-color: #4dd0e1;
+}
+
+.c53 {
+  position: absolute;
+  width: 100%;
+  height: 100px;
+  left: 0;
+  z-index: 1;
+  background-repeat: repeat no-repeat;
+  bottom: 0;
+  background-color: #80deea;
+  z-index: 3;
+}
+
+.c54 {
+  position: absolute;
+  width: 100%;
+  height: 100px;
+  left: 0;
+  z-index: 1;
+  background-repeat: repeat no-repeat;
+  bottom: 300px;
+  background-image: url('/images/blue-wave.svg');
+}
+
+.c55 {
+  position: absolute;
+  width: 100%;
+  height: 100px;
+  left: 0;
+  z-index: 1;
+  background-repeat: repeat no-repeat;
+  bottom: 200px;
+  background-image: url('/images/light-blue-wave.svg');
+}
+
+.c56 {
+  position: absolute;
+  width: 100%;
+  height: 100px;
+  left: 0;
+  z-index: 1;
+  background-repeat: repeat no-repeat;
+  bottom: 100px;
+  background-image: url('/images/lighter-blue-wave.svg');
+  z-index: 3;
+}
+
+.c57 {
+  position: absolute;
+  width: 100%;
+  height: 100px;
+  left: 0;
+  z-index: 1;
+  background-repeat: repeat no-repeat;
+  bottom: 0;
+  background-image: url('/images/white-wave.svg');
+  z-index: 4;
+}
+
+.c46 {
+  -webkit-flex: 0 0 386px;
+  -ms-flex: 0 0 386px;
+  flex: 0 0 386px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  position: relative;
+  z-index: 5;
+}
+
+.c48 {
+  font-size: 24px;
+  color: #fff;
+  margin-top: 38px;
+  margin-bottom: 65px;
+}
+
+.c49 {
+  display: grid;
+  grid-template-columns: repeat(2,120px);
+  grid-column-gap: 40px;
+}
+
+.c42 {
+  height: 564px;
+  position: relative;
+}
+
+.c43 {
+  -webkit-flex: 1 1 0;
+  -ms-flex: 1 1 0;
+  flex: 1 1 0;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  display: grid;
+  grid-template-columns: repeat(2,280px);
+  grid-column-gap: 34px;
+  margin-right: 20px;
+}
+
+.c44 {
+  position: relative;
+  z-index: 2;
+  -webkit-transform: translateY(-100px);
+  -ms-transform: translateY(-100px);
+  transform: translateY(-100px);
+}
+
+.c45 {
+  position: relative;
+  z-index: 4;
+  -webkit-transform: translateY(-130px);
+  -ms-transform: translateY(-130px);
+  transform: translateY(-130px);
+}
+
+@media (max-width:1024px) and (min-width:450px) {
+  .c0 {
+    background-position: calc(100% - 54.7vw + 560px) 100%;
+  }
+}
+
+@media (max-width:449px) {
+  .c0 {
+    background-image: none;
+  }
+}
+
+@media (max-width:450px) {
+  .c1 {
+    margin: 60px 20px 80px;
+  }
+}
+
+@media (max-width:1024px) {
+  .c5 {
+    max-width: 365px;
+  }
+}
+
+@media (max-width:500px) {
+  .c19 {
+    grid-column-gap: 16px;
+  }
+}
+
+@media (max-width:1023px) {
+  .c16 {
+    margin-top: 36px;
+    margin-left: 0;
+  }
+}
+
+@media (max-width:599px) {
+  .c17 {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media (max-width:450px) {
+  .c11 {
+    margin: 60px 20px 80px;
+  }
+}
+
+@media (max-width:1023px) {
+  .c9 .c10 {
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+  }
+
+  .c9 .c13 {
+    max-width: unset;
+  }
+}
+
+@media (max-width:450px) {
+  .c40 {
+    padding: 0px 20px 146px;
+  }
+}
+
+@media (min-width:1441px) {
+  .c37 {
+    left: 62px;
+  }
+}
+
+@media (min-width:1024px) and (max-width:1440px) {
+  .c37 {
+    width: calc(52.9vw + 130px);
+    right: 0;
+    left: 0;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+  }
+}
+
+@media (max-width:1023px) {
+  .c37 {
+    width: unset;
+    right: -56px;
+  }
+}
+
+@media (max-width:649px) {
+  .c37 {
+    display: none;
+  }
+}
+
+@media (min-width:1441px) {
+  .c38 {
+    left: 62px;
+  }
+}
+
+@media (min-width:1024px) and (max-width:1440px) {
+  .c38 {
+    width: calc(52.9vw + 130px);
+    right: 0;
+    left: 0;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+  }
+}
+
+@media (max-width:1023px) {
+  .c38 {
+    width: unset;
+    right: -56px;
+  }
+}
+
+@media (max-width:649px) {
+  .c38 {
+    display: none;
+  }
+}
+
+@media (max-width:450px) {
+  .c26 .c10 {
+    margin-bottom: 0;
+  }
+}
+
+@media (max-width:1023px) {
+  .c27 {
+    max-width: 280px;
+    -webkit-flex: 0 0 280px;
+    -ms-flex: 0 0 280px;
+    flex: 0 0 280px;
+  }
+}
+
+@media (max-width:1070px) {
+  .c46 {
+    max-width: 280px;
+    -webkit-flex: 0 0 280px;
+    -ms-flex: 0 0 280px;
+    flex: 0 0 280px;
+  }
+}
+
+@media (max-width:1023px) {
+  .c48 {
+    margin-bottom: 38px;
+  }
+}
+
+@media (max-width:960px) {
+  .c42 .c10 {
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+  }
+}
+
+@media (max-width:960px) {
+  .c43 {
+    grid-template-columns: 280px;
+    -webkit-flex: 0 0 0;
+    -ms-flex: 0 0 0;
+    flex: 0 0 0;
+    margin-right: 32px;
+  }
+}
+
+@media (max-width:649px) {
+  .c43 {
+    display: none;
+  }
+}
+
+@media (max-width:960px) {
+  .c44 {
+    display: none;
+  }
+}
+
+<main>
     <div
-      className="c5"
+      className="c0"
     >
       <div
-        className="c6"
+        className="c1"
       >
         <h1
-          className="c7"
+          className="c2"
         >
           <span />
           <span
-            className="c8"
+            className="c3"
           >
             «Hook»?
           </span>
         </h1>
         <p
-          className="c9"
+          className="c4"
         />
         <p
-          className="c10"
+          className="c5"
         />
         <button
-          className="c11"
+          className="c6"
         >
           <svg
-            className="c12"
+            className="c7"
             fill="none"
             height="16"
             viewBox="0 0 17 16"
@@ -820,34 +892,34 @@ exports[`Nav Test Nav render 1`] = `
       </div>
     </div>
     <section
-      className="c13"
+      className="c8 c9"
     >
       <div
-        className="c14"
+        className="c10 c11"
       >
         <div
-          className="c15"
+          className="c12"
           color="mainBlue"
         >
           <h2
-            className="c16"
+            className="c13 c14"
           >
             на что ловишь?
           </h2>
           <span
-            className="c17"
+            className="c15"
           >
             полезные преимущества
           </span>
         </div>
         <div
-          className="c18"
+          className="c16"
         >
           <ul
-            className="c19"
+            className="c17"
           >
             <li
-              className="c20"
+              className="c18"
             >
               <svg
                 fill="none"
@@ -879,7 +951,7 @@ exports[`Nav Test Nav render 1`] = `
               </p>
             </li>
             <li
-              className="c20"
+              className="c18"
             >
               <svg
                 fill="none"
@@ -911,7 +983,7 @@ exports[`Nav Test Nav render 1`] = `
               </p>
             </li>
             <li
-              className="c20"
+              className="c18"
             >
               <svg
                 fill="none"
@@ -943,7 +1015,7 @@ exports[`Nav Test Nav render 1`] = `
               </p>
             </li>
             <li
-              className="c20"
+              className="c18"
             >
               <svg
                 fill="none"
@@ -976,25 +1048,25 @@ exports[`Nav Test Nav render 1`] = `
             </li>
           </ul>
           <div
-            className="c21 c22"
+            className="c19 c20"
           >
             <div
-              className="c23"
+              className="c21"
             >
               <span
-                className="c24"
+                className="c22"
               >
                 Готов попробовать?
               </span>
               <button
-                className="c25 c26"
+                className="c23 c24"
                 type="button"
               >
                 Сейчас в WEB
               </button>
             </div>
             <button
-              className="c25 c26"
+              className="c23 c24"
               type="button"
             >
               Скачать приложение
@@ -1004,184 +1076,206 @@ exports[`Nav Test Nav render 1`] = `
       </div>
     </section>
     <section
-      className="c27 c28"
+      className="c25 c26"
     >
       <div
-        className="c14"
+        className="c10 c11"
       >
         <div
-          className="c29"
+          className="c27"
         >
           <div
-            className="c15"
+            className="c12"
             color="mainBlue"
           >
             <h2
-              className="c16"
+              className="c13 c14"
             >
               тяни!
             </h2>
             <span
-              className="c17"
+              className="c15"
             >
               как пользоваться
             </span>
           </div>
           <div
-            className="c30"
+            className="c28"
           >
             <ul
               className=""
             >
               <li
-                className="c31"
+                className="c29"
               >
                 <h4
-                  className="c32 c33"
+                  className="c30 c31"
                 >
                   01
                 </h4>
                 <p
-                  className="c34"
+                  className="c32"
                 >
                   Зайди в пункт меню «искать рыбное место» или скачай в AppStore/ GooglePlayприложение.
                 </p>
                 <button
-                  className="c35"
+                  className="c33"
                   onClick={[Function]}
                 />
               </li>
               <li
-                className="c36"
+                className="c34"
               >
                 <h4
-                  className="c32 c37"
+                  className="c30 c35"
                 >
                   02
                 </h4>
                 <p
-                  className="c34"
+                  className="c32"
                 >
                   Пройди простую регистрацию. Это легко и бесплатно. Отвечаем!
                 </p>
                 <button
-                  className="c35"
+                  className="c33"
                   onClick={[Function]}
                 />
               </li>
               <li
-                className="c36"
+                className="c34"
               >
                 <h4
-                  className="c32 c37"
+                  className="c30 c35"
                 >
                   03
                 </h4>
                 <p
-                  className="c34"
+                  className="c32"
                 >
                   Открой фильтр и найди клёвое место. Удачи!
                 </p>
                 <button
-                  className="c35"
+                  className="c33"
                   onClick={[Function]}
                 />
               </li>
             </ul>
           </div>
-          <div
-            className="c38"
-          >
-            <div
-              className="c21 c39"
-            >
-              <div
-                className="c23"
-              >
-                <span
-                  className="c24"
-                >
-                  Готов попробовать?
-                </span>
-                <button
-                  className="c25 c26"
-                  type="button"
-                >
-                  Сейчас в WEB
-                </button>
-              </div>
-              <button
-                className="c25 c26"
-                type="button"
-              >
-                Скачать приложение
-              </button>
-            </div>
-          </div>
         </div>
         <div
-          className="c40"
+          className="c36"
         >
-          <img
-            className="c41"
-            src="/images/manual-step-1.png"
-          />
-          <img
-            className="c42"
-            src="/images/manual-step-2.png"
-          />
-          <img
-            className="c42"
-            src="/images/manual-step-3.png"
-          />
+          <picture>
+            <source
+              media="(max-width: 1023px)"
+              srcSet="/images/manual-mob-step-1.png"
+            />
+            <img
+              className="c37"
+              src="/images/manual-step-1.png"
+            />
+          </picture>
+          <picture>
+            <source
+              media="(max-width: 1023px)"
+              srcSet="/images/manual-mob-step-2.png"
+            />
+            <img
+              className="c38"
+              src="/images/manual-step-2.png"
+            />
+          </picture>
+          <picture>
+            <source
+              media="(max-width: 1023px)"
+              srcSet="/images/manual-mob-step-3.png"
+            />
+            <img
+              className="c38"
+              src="/images/manual-step-3.png"
+            />
+          </picture>
         </div>
       </div>
     </section>
-    <section
-      className="c43 c44"
+    <div
+      className="c39"
     >
       <div
-        className="c14"
+        className="c40"
       >
         <div
-          className="c45"
+          className="c19"
+        >
+          <div
+            className="c21"
+          >
+            <span
+              className="c22"
+            >
+              Готов попробовать?
+            </span>
+            <button
+              className="c23 c24"
+              type="button"
+            >
+              Сейчас в WEB
+            </button>
+          </div>
+          <button
+            className="c23 c24"
+            type="button"
+          >
+            Скачать приложение
+          </button>
+        </div>
+      </div>
+    </div>
+    <section
+      className="c41 c42"
+    >
+      <div
+        className="c10 c11"
+      >
+        <div
+          className="c43"
         >
           <img
             alt="Tel screen"
-            className="c46"
+            className="c44"
             src="/images/tel-screen.png"
           />
           <img
             alt="Tel main screen"
-            className="c47"
+            className="c45"
             src="/images/tel-main-screen.png"
           />
         </div>
         <div
-          className="c48"
+          className="c46"
         >
           <div
-            className="c49"
+            className="c47"
             color="white"
           >
             <h2
-              className="c16"
+              className="c13 c14"
             >
               подсекай!
             </h2>
             <span
-              className="c17"
+              className="c15"
             >
               скачать приложение
             </span>
           </div>
           <p
-            className="c50"
+            className="c48"
           >
             Не тяни - выбери свою площадку, установи приложение и принеси рыбы на ужин.
           </p>
           <div
-            className="c51"
+            className="c49"
           >
             <img
               alt="App Store"
@@ -1193,6 +1287,12 @@ exports[`Nav Test Nav render 1`] = `
             />
           </div>
         </div>
+        <div
+          className="c50"
+        />
+        <div
+          className="c51"
+        />
         <div
           className="c52"
         />
@@ -1211,26 +1311,78 @@ exports[`Nav Test Nav render 1`] = `
         <div
           className="c57"
         />
-        <div
-          className="c58"
-        />
-        <div
-          className="c59"
-        />
       </div>
     </section>
-  </main>
-  <footer
-    className="c60"
+  </main>,
+  .c5 {
+  width: 56px;
+  height: 56px;
+  border-radius: 15px;
+  background-color: #f3f6f8;
+}
+
+.c0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  height: 116px;
+  width: 100%;
+  background-repeat: repeat no-repeat;
+  background-color: #fff;
+  position: relative;
+  z-index: 5;
+}
+
+.c1 {
+  max-width: 1202px;
+  margin: 0 56px;
+  width: 100%;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-transform: translateY(-14px);
+  -ms-transform: translateY(-14px);
+  transform: translateY(-14px);
+}
+
+.c2 {
+  width: 56px;
+  height: 56px;
+  border-radius: 15px;
+  background-color: #f3f6f8;
+}
+
+.c3 {
+  -webkit-transform: rotateZ(180deg);
+  -ms-transform: rotateZ(180deg);
+  transform: rotateZ(180deg);
+}
+
+.c4 {
+  margin-left: 20px;
+  width: 200px;
+  font-size: 18px;
+  color: #cdcdcd;
+  line-height: 1.33333333;
+}
+
+<footer
+    className="c0"
   >
     <div
-      className="c61"
+      className="c1"
     >
       <button
-        className="c62"
+        className="c2"
       >
         <svg
-          className="c63"
+          className="c3"
           fill="none"
           height="16"
           viewBox="0 0 17 16"
@@ -1247,20 +1399,20 @@ exports[`Nav Test Nav render 1`] = `
         </svg>
       </button>
       <p
-        className="c64"
+        className="c4"
       >
         Все права защищены © 2019 «Hook»
       </p>
       <div>
         <button
-          className="c65"
+          className="c5"
           onClick={[Function]}
           type="button"
         >
           RU
         </button>
         <button
-          className="c65"
+          className="c5"
           onClick={[Function]}
           type="button"
         >
@@ -1268,6 +1420,6 @@ exports[`Nav Test Nav render 1`] = `
         </button>
       </div>
     </div>
-  </footer>
-</div>
+  </footer>,
+]
 `;

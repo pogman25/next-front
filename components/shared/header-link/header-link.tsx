@@ -33,13 +33,14 @@ const LinkStyled = styled.a<{ isActive: boolean }>`
 interface HeaderLinkType {
   href: string;
   title: string;
+  className?: string;
 }
 
-const HeaderLink: React.SFC<HeaderLinkType> = ({ href, title }) => {
+const HeaderLink: React.FC<HeaderLinkType> = ({ className, href, title }) => {
   const { pathname } = useRouter();
   return (
     <Link href={href}>
-      <LinkStyled isActive={href === pathname} title={title}>
+      <LinkStyled isActive={href === pathname} title={title} className={className}>
         {title}
       </LinkStyled>
     </Link>

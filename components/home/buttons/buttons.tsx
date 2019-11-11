@@ -9,6 +9,10 @@ const ButtonContainer = styled.div`
   max-width: 800px;
   z-index: 1;
   position: relative;
+
+  @media (max-width: 500px) {
+    grid-column-gap: 16px;
+  }
 `;
 
 const AdvanButtons = styled(Button).attrs(props => ({
@@ -23,6 +27,7 @@ const FirstBtn = styled.div`
 `;
 
 const Span = styled.span`
+  min-width: 200px;
   position: absolute;
   font-size: ${({ theme }) => theme.fontSizes.ml};
   line-height: 23px;
@@ -33,7 +38,7 @@ const Span = styled.span`
   font-style: italic;
 `;
 
-const Buttons: React.SFC<{ className?: string }> = ({ className }) => {
+const Buttons: React.FC<{ className?: string }> = ({ className }) => {
   return (
     <ButtonContainer className={className}>
       <FirstBtn>

@@ -28,6 +28,10 @@ const DownloadImg = styled.div`
     flex: 0 0 0;
     margin-right: 32px;
   }
+
+  @media (max-width: 649px) {
+    display: none;
+  }
 `;
 
 const TelScreen = styled.img`

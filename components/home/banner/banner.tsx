@@ -13,8 +13,12 @@ const Container = styled.div`
   background-repeat: no-repeat;
   background-position: 100% 100%;
 
-  @media (max-width: 1024px) and (min-width: 320px) {
+  @media (max-width: 1024px) and (min-width: 450px) {
     background-position: calc(100% - 54.7vw + 560px) 100%;
+  }
+
+  @media (max-width: 449px) {
+    background-image: none;
   }
 `;
 
@@ -26,6 +30,10 @@ const TextContainer = styled.div`
   width: 100%;
   margin: 60px 56px 80px;
   color: ${({ theme }) => theme.colors.white};
+
+  @media (max-width: 450px) {
+    margin: 60px 20px 80px;
+  }
 `;
 
 const H1 = styled.h1`

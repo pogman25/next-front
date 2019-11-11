@@ -17,6 +17,12 @@ jest.mock('next/router', () => ({
 
 describe('Nav Test', () => {
   test('Nav render', () => {
+    (window as any).matchMedia = (matches: string) => ({
+      matches: true, // <-- Set according to what you want to test
+      addListener: () => {},
+      removeListener: () => {},
+      media: '',
+    });
     const tree = renderer
       .create(
         <ThemeProvider theme={theme}>

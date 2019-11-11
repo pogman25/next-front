@@ -72,7 +72,7 @@ const stepsList = [
   'Открой фильтр и найди клёвое место. Удачи!',
 ];
 
-const ManualSteps: React.SFC<ManualStepsType> = ({ setActive, active }) => {
+const ManualSteps: React.FC<ManualStepsType> = ({ setActive, active }) => {
   return (
     <Container>
       <StepList>

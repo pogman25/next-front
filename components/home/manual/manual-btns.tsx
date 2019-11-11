@@ -13,6 +13,10 @@ const Row = styled.div`
   width: 100%;
   max-width: 1202px;
   padding: 0 56px 146px;
+
+  @media (max-width: 450px) {
+    padding: 0px 20px 146px;
+  }
 `;
 
 const ManualBtns = () => {

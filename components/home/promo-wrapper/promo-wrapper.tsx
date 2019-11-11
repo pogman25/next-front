@@ -19,9 +19,13 @@ export const Row = styled.div`
   max-width: 1202px;
   width: 100%;
   margin: 60px 56px 80px;
+
+  @media (max-width: 450px) {
+    margin: 60px 20px 80px;
+  }
 `;
 
-const PromoWrapper: React.SFC<PromoWrapperType> = ({
+const PromoWrapper: React.FC<PromoWrapperType> = ({
   children,
   className,
   bgColor = 'white',

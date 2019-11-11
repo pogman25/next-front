@@ -16,6 +16,7 @@
     "next": "^9.1.2",
     "react": "^16.11.0",
     "react-dom": "^16.11.0",
+    "react-use": "^13.6.2",
     "styled-components": "^4.4.1",
     "typescript": "^3.6.4"
   },
