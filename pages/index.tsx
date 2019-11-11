@@ -11,7 +11,7 @@ import DownloadBlock from '../components/home/download-block';
 const Home = () => {
   const { dictionary } = useLocale();
   return (
-    <div>
+    <>
       <Head>
         <title>{dictionary.slogan}</title>
         <link rel="icon" href="/favicon.ico" />
@@ -24,7 +24,7 @@ const Home = () => {
         <DownloadBlock />
       </main>
       <Footer />
-    </div>
+    </>
   );
 };
 

@@ -31,7 +31,7 @@ const Image = styled.img<{ active: boolean }>`
   }
 `;
 
-const ManualImgs: React.SFC<{ state: number }> = ({ state }) => {
+const ManualImgs: React.FC<{ state: number }> = ({ state }) => {
   return (
     <ImageContainer>
       <picture>

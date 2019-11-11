@@ -33,7 +33,7 @@ const Span = styled.span`
   font-style: italic;
 `;
 
-const Buttons: React.SFC<{ className?: string }> = ({ className }) => {
+const Buttons: React.FC<{ className?: string }> = ({ className }) => {
   return (
     <ButtonContainer className={className}>
       <FirstBtn>

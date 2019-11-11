@@ -1,4 +1,4 @@
-import React, { SFC } from 'react';
+import React from 'react';
 import styled from 'styled-components';
 
 interface ButtonType {
@@ -44,7 +44,7 @@ const StyledBtn = styled.button<ButtonType>`
   }};
 `;
 
-const Button: SFC<ButtonType> = ({ children, bg, type = 'button', ...props }) => {
+const Button: React.FC<ButtonType> = ({ children, bg, type = 'button', ...props }) => {
   return (
     <StyledBtn type={type} bg={bg} {...props}>
       {children}

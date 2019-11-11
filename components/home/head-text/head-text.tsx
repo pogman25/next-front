@@ -27,7 +27,7 @@ const SubTitle = styled.span`
   letter-spacing: -0.3px;
 `;
 
-const HeadText: React.SFC<HeadTextType> = ({ title, subtitle, color = 'mainBlue' }) => {
+const HeadText: React.FC<HeadTextType> = ({ title, subtitle, color = 'mainBlue' }) => {
   return (
     <TextContainer color={color}>
       <H2>{title}</H2>

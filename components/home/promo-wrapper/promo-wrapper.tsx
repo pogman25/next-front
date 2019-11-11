@@ -21,7 +21,7 @@ export const Row = styled.div`
   margin: 60px 56px 80px;
 `;
 
-const PromoWrapper: React.SFC<PromoWrapperType> = ({
+const PromoWrapper: React.FC<PromoWrapperType> = ({
   children,
   className,
   bgColor = 'white',
